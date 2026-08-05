@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TechLuddite — OpsVibe Systems</title>
+<meta name="description" content="Public projects by TechLuddite: browser-native, backend-free tools that tell you the truth about what they measured. Network diagnostics, an API client, image tooling, and a couple of games.">
+<meta name="color-scheme" content="dark light">
+<meta name="author" content="TechLuddite">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="TechLuddite — OpsVibe Systems">
+<meta property="og:description" content="Browser-native, backend-free tools that tell you the truth about what they measured.">
+<meta name="twitter:card" content="summary">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230b0f14'/><text y='72' x='50' text-anchor='middle' font-size='62' font-family='monospace' fill='%2338e8c4'>&gt;_</text></svg>">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<a class="skip" href="#projects">Skip to projects</a>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="#top">
+      <span class="brand-mark" aria-hidden="true">&gt;_</span>
+      <span class="brand-text">opsvibe<span class="dim">.systems</span></span>
+    </a>
+    <nav class="topnav" aria-label="Sections">
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#support">Support</a>
+      <a href="#shoutouts">Shout-outs</a>
+      <a href="https://github.com/TechLuddite" class="ext">GitHub</a>
+    </nav>
+    <button id="theme-toggle" class="icon-btn" type="button" aria-label="Switch to light theme" title="Toggle theme">
+      <span class="theme-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ── Hero ───────────────────────────────────────────────────────── -->
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <p class="eyebrow"><span class="pulse" aria-hidden="true"></span> Public work · shipped from a homelab and an MSP desk</p>
+      <h1>TechLuddite</h1>
+      <p class="lede">
+        I spent nearly three decades in IT — building machines, then deploying networks and
+        servers, then making the security calls — and deliberately left programming alone the
+        whole time. That stopped being a defensible position, so now the code is public and
+        so are the mistakes.
+      </p>
+      <p class="sub">
+        Everything here is browser-native, backend-free, and built on one rule: a tool
+        should never show you a number it didn't actually measure.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#projects">Browse the projects</a>
+        <a class="btn" href="https://github.com/TechLuddite">GitHub profile</a>
+        <a class="btn btn-ghost" href="#support">Support the work</a>
+      </div>
+
+      <dl class="stats" id="stats">
+        <div class="stat"><dt>Public projects</dt><dd data-stat="repos">—</dd></div>
+        <div class="stat"><dt>Live apps</dt><dd data-stat="live">—</dd></div>
+        <div class="stat"><dt>Backends run</dt><dd data-stat="backends">0</dd></div>
+        <div class="stat"><dt>Accounts required</dt><dd data-stat="accounts">0</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- ── Projects ───────────────────────────────────────────────────── -->
+  <section id="projects" class="section">
+    <div class="wrap">
+      <header class="section-head">
+        <h2>Projects</h2>
+        <p>Every public repository, with what it actually does and where it's running.</p>
+      </header>
+
+      <div class="controls">
+        <div class="filters" role="group" aria-label="Filter projects">
+          <button class="chip is-active" data-filter="all" type="button">All</button>
+          <button class="chip" data-filter="live" type="button">Live now</button>
+          <button class="chip" data-filter="web" type="button">Web apps</button>
+          <button class="chip" data-filter="mobile" type="button">Android</button>
+          <button class="chip" data-filter="python" type="button">Python</button>
+        </div>
+        <div class="search">
+          <label class="sr-only" for="q">Search projects</label>
+          <input id="q" type="search" placeholder="Search projects, stacks, ideas…" autocomplete="off">
+        </div>
+      </div>
+
+      <div id="grid" class="grid" aria-live="polite">
+        <p class="loading">Loading projects…</p>
+      </div>
+      <p id="empty" class="empty" hidden>No project matches that. Try clearing the filter.</p>
+      <p id="live-note" class="note" hidden></p>
+    </div>
+  </section>
+
+  <!-- ── About ──────────────────────────────────────────────────────── -->
+  <section id="about" class="section section-alt">
+    <div class="wrap about-grid">
+      <div>
+        <h2>About</h2>
+        <p>
+          I'm a technical services director at a managed service provider. Nearly thirty years
+          of that career was hardware, networks, servers, and eventually the security decisions
+          — the parts of the job where being wrong is expensive and quiet. Programming was the
+          one thing I left to other people.
+        </p>
+        <p>
+          The AI shift made that untenable. You cannot lead security and managed services from
+          a distance while the stack underneath you changes shape — the use cases, the supply
+          chains, the information-disclosure surfaces, the data flows. So these projects are the
+          hands-on version of learning it: public, streamed, and honest about what the tooling
+          got wrong.
+        </p>
+        <p>
+          Several of these apps started as one-shot generations in an AI studio and were then
+          audited line by line. Most of them shipped with a postmortem in the repo, because the
+          bugs weren't random — they fell into recurring shapes, and the worst of them were
+          apps confidently lying about themselves. That's where the house rules came from.
+        </p>
+        <p class="muted">
+          None of this is an endorsement of how AI is currently being deployed. It's an attempt
+          to understand it properly, which is the only responsible position for someone in this
+          seat.
+        </p>
+      </div>
+
+      <aside class="principles" aria-label="How these projects are built">
+        <h3>House rules</h3>
+        <ol>
+          <li>
+            <strong>Never invent a number.</strong> A failed measurement reads “—” with a
+            reason, never a plausible substitute.
+          </li>
+          <li>
+            <strong>No self-drawn badges.</strong> An app can't prove its own integrity. Show
+            the commit SHA and how to rebuild it instead.
+          </li>
+          <li>
+            <strong>No backend unless there must be one.</strong> No accounts, no telemetry, no
+            database of other people's photos to lose.
+          </li>
+          <li>
+            <strong>Document what leaves the browser.</strong> Every third-party host, in a
+            table, in the README.
+          </li>
+          <li>
+            <strong>Gates that actually gate.</strong> Strict typecheck, lint and tests on every
+            push; deployment blocked on green.
+          </li>
+          <li>
+            <strong>MIT, all of it.</strong> Fork it, ship it commercially, keep the notice.
+          </li>
+        </ol>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ── Support ────────────────────────────────────────────────────── -->
+  <section id="support" class="section">
+    <div class="wrap">
+      <header class="section-head">
+        <h2>💜 Dev support</h2>
+        <p>Everything here is free, MIT-licensed, and has no paid tier. If it saved you an afternoon:</p>
+      </header>
+
+      <div class="support-grid">
+        <a class="support-card" href="https://paypal.me/techluddite">
+          <span class="support-icon" aria-hidden="true">💳</span>
+          <span class="support-title">PayPal</span>
+          <span class="support-sub">paypal.me/techluddite — one-off, no subscription, no tiers</span>
+        </a>
+        <a class="support-card" href="https://github.com/TechLuddite">
+          <span class="support-icon" aria-hidden="true">⭐</span>
+          <span class="support-title">Star a repo</span>
+          <span class="support-sub">Costs nothing and helps the most — it's the only signal these projects get</span>
+        </a>
+        <a class="support-card" href="https://www.twitch.tv/techluddite">
+          <span class="support-icon" aria-hidden="true">📺</span>
+          <span class="support-title">Twitch</span>
+          <span class="support-sub">Development streamed live. 100% of ad revenue goes to charity</span>
+        </a>
+        <a class="support-card" href="https://www.breakthrought1d.org/">
+          <span class="support-icon" aria-hidden="true">🩸</span>
+          <span class="support-title">Breakthrough T1D</span>
+          <span class="support-sub">The current fundraising round — give to them directly instead, honestly</span>
+        </a>
+      </div>
+
+      <p class="note">
+        Bug reports and pull requests are worth more than money. Every repo takes issues, and
+        the contributing guide in each one is short on purpose.
+      </p>
+    </div>
+  </section>
+
+  <!-- ── Shout-outs ─────────────────────────────────────────────────── -->
+  <section id="shoutouts" class="section section-alt">
+    <div class="wrap">
+      <header class="section-head">
+        <h2>⭐ Shout-outs</h2>
+        <p>The people and projects that these repos owe something to.</p>
+      </header>
+
+      <div class="shout-grid">
+        <a class="shout" href="https://halomsp.com">
+          <h3>Halo MSP</h3>
+          <p>
+            Helping businesses with safe and sensible AI and software implementation — the
+            conversations that keep the rules on this page grounded in what actually goes wrong
+            in production.
+          </p>
+          <span class="shout-link">halomsp.com</span>
+        </a>
+
+        <a class="shout" href="https://www.tech2u.com">
+          <h3>Tech 2U</h3>
+          <p>
+            Parent company, and expert IT support and services — computer repair, hardware
+            diagnostics, and the technical support side of the house.
+          </p>
+          <span class="shout-link">tech2u.com</span>
+        </a>
+
+        <a class="shout" href="https://www.decisionproblem.com/paperclips/">
+          <h3>Frank Lantz &amp; Everybody House Games</h3>
+          <p>
+            For <em>Universal Paperclips</em> — one of the great thought experiments in AI
+            philosophy, disguised as a game about stationery. Two projects here are tributes to
+            it. Play the original first.
+          </p>
+          <span class="shout-link">decisionproblem.com</span>
+        </a>
+
+        <a class="shout" href="https://www.breakthrought1d.org/">
+          <h3>Breakthrough T1D</h3>
+          <p>
+            Type 1 diabetes research and advocacy, and the beneficiary of the current stream
+            fundraising round.
+          </p>
+          <span class="shout-link">breakthrought1d.org</span>
+        </a>
+
+        <a class="shout" href="https://react.dev/">
+          <h3>The open-source stack</h3>
+          <p>
+            React, TypeScript, Vite, Tailwind, Vitest, Lucide, Leaflet, Recharts, OpenCV,
+            Ollama, libheif and libavif. None of this gets built solo in a year.
+          </p>
+          <span class="shout-link">react.dev · vitejs.dev · tailwindcss.com</span>
+        </a>
+
+        <a class="shout" href="https://developers.cloudflare.com/1.1.1.1/encryption/dns-over-https/">
+          <h3>The public infrastructure</h3>
+          <p>
+            Cloudflare and Google Public DNS for DoH, OpenStreetMap and CARTO for basemaps, the
+            IEEE OUI registry, and the CDNs that let a backend-free app measure a real network.
+          </p>
+          <span class="shout-link">Documented per-host in each README</span>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <div>
+      <p class="footer-brand"><span aria-hidden="true">&gt;_</span> TechLuddite · OpsVibe Systems</p>
+      <p class="muted small">
+        Static page, no analytics, no cookies, no trackers. Project stats are fetched from the
+        public GitHub API when you load it; if that call fails you get “—”, not a guess.
+      </p>
+    </div>
+    <nav class="footer-links" aria-label="Elsewhere">
+      <a href="https://github.com/TechLuddite">GitHub</a>
+      <a href="https://www.twitch.tv/techluddite">Twitch</a>
+      <a href="https://paypal.me/techluddite">PayPal</a>
+      <a href="https://github.com/TechLuddite/Opsvibe-Homepage">Source of this page</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

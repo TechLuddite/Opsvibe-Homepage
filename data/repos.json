@@ -1,0 +1,156 @@
+{
+  "$comment": "Curated card copy for each public repo. Live numbers (stars, language, last push) are fetched from the GitHub API at runtime; anything that fails to load renders as an em dash rather than a guess.",
+  "profile": {
+    "handle": "TechLuddite",
+    "github": "https://github.com/TechLuddite",
+    "tagline": "Twenty-nine years in IT, one year writing code in public.",
+    "role": "Technical services director at an MSP",
+    "location": "Sacramento, CA"
+  },
+  "repos": [
+    {
+      "name": "NetReady",
+      "title": "NetReady",
+      "emoji": "🌐",
+      "tagline": "Browser-native network diagnostics that never invent a number.",
+      "blurb": "A full diagnostics suite built on plain web APIs — fetch, WebSockets, RTCPeerConnection, the Performance Timeline, DNS-over-HTTPS. The rule that shapes the whole codebase: when a measurement fails it reports “—” and tells you why. An earlier generated version happily produced an A grade on a machine with no internet at all; the postmortem for that is in the repo.",
+      "highlights": [
+        "One-button triage answers “is it me or the internet?” with ranked causes and fixes",
+        "Offline deterministic rules engine — no model, no backend, no account",
+        "Every third-party host it touches is documented in a table in the README"
+      ],
+      "stack": ["React 19", "TypeScript strict", "Vite", "Vitest"],
+      "live": "https://netready.opsvibe.systems",
+      "repo": "https://github.com/TechLuddite/NetReady",
+      "accent": "cyan"
+    },
+    {
+      "name": "Endpointer",
+      "title": "Endpointer",
+      "emoji": "⚡",
+      "tagline": "A browser-native API client with a public API directory that verifies itself.",
+      "blurb": "Build a request, run it, generate client code for it in eight languages, assert on the response, then share the whole thing as a single URL. The directory of public APIs isn't a static list someone stopped maintaining — a scheduled job checks every entry and opens an issue when one breaks.",
+      "highlights": [
+        "Paste a curl command, a Postman collection, an OpenAPI doc or a HAR and it becomes an editable request",
+        "Credentials are redacted before any AI request leaves the machine — with tests asserting it",
+        "Optional proxy refuses private, loopback, link-local, CGNAT and cloud-metadata addresses, rechecked on every redirect hop"
+      ],
+      "stack": ["React 19", "TypeScript", "Tailwind v4", "Cloudflare Workers"],
+      "live": "https://endpointer.opsvibe.systems",
+      "repo": "https://github.com/TechLuddite/Endpointer",
+      "accent": "amber"
+    },
+    {
+      "name": "Cropalot",
+      "title": "Cropalot",
+      "emoji": "📸",
+      "tagline": "Pull every photo off a scanned album page — without the page ever leaving your browser.",
+      "blurb": "Scan or photograph an album sheet holding several photographs; Cropalot detects each one, corrects the perspective, and extracts it at full resolution. The privacy claim isn't a promise in a policy — index.html ships <code>connect-src 'none'</code>, so the browser refuses every outbound request before a line of app JavaScript runs. The audit is one line long.",
+      "highlights": [
+        "Detection and homography warp run in a Web Worker, with an inline fallback",
+        "Perceptual hashing catches duplicates across an unattended album run",
+        "Shows its commit SHA and rebuild instructions instead of a green badge it drew for itself"
+      ],
+      "stack": ["React", "TypeScript", "Web Workers", "IndexedDB", "PWA"],
+      "live": "https://cropalot.opsvibe.systems",
+      "repo": "https://github.com/TechLuddite/Cropalot",
+      "accent": "violet"
+    },
+    {
+      "name": "ImgType",
+      "title": "ImgType",
+      "emoji": "🖼️",
+      "tagline": "Batch image conversion in tab memory. No upload, because there is no server.",
+      "blurb": "HEIC, PNG, JPG, WebP, AVIF, GIF, BMP, ICO, SVG — decoded, resized and re-encoded locally via Canvas and WebAssembly codecs. Most online converters ask you to hand a passport scan to a machine you know nothing about. This one can't: the WASM codecs are lazy-loaded, and the build publishes a SHA-384 manifest to a separate branch so the Verify button checks the site against something the site doesn't control.",
+      "highlights": [
+        "Metadata inspector shows the GPS coordinates and camera serial buried in a photo before stripping them",
+        "“Aim for a file size” searches for the best quality that fits under a target",
+        "~120 KB gzipped initial load; offline-capable via service worker"
+      ],
+      "stack": ["React 19", "TypeScript", "WebAssembly", "Tailwind v4"],
+      "live": "https://imgtype.opsvibe.systems",
+      "repo": "https://github.com/TechLuddite/ImgType",
+      "accent": "emerald"
+    },
+    {
+      "name": "Universal-AI",
+      "title": "Universal AI",
+      "emoji": "📎",
+      "tagline": "An idle game about optimization, and about who is doing it.",
+      "blurb": "You etch NPU chips one at a time, buy a fab, then fifty, set a price and chase demand. Then you hand the wheel to an autonomous Overseer — a deterministic scorer, or Llama 3.2 1B running on your GPU through WebGPU — give it directives, and watch it drift. A tribute to Frank Lantz's Universal Paperclips. Play the original first.",
+      "highlights": [
+        "The simulation is a pure reducer: tick(state, now, rng) — no React, no timers, no DOM",
+        "A headless run drives it to the victory condition in about half a second, as the regression guard for “this game can be finished”",
+        "docs/LESSONS-FROM-AI-STUDIO.md catalogues the seven recurring failure shapes in the generated draft"
+      ],
+      "stack": ["React 19", "TypeScript", "WebGPU", "WebLLM", "Canvas"],
+      "live": "https://paperclips.opsvibe.systems",
+      "repo": "https://github.com/TechLuddite/Universal-AI",
+      "accent": "rose"
+    },
+    {
+      "name": "Cellular-Honeypot-Detector",
+      "title": "Cellular Honeypot Detector",
+      "emoji": "📡",
+      "tagline": "Privacy-first Android tool for IMSI catchers, fake towers and baseband anomalies.",
+      "blurb": "Monitors cellular baseband telemetry for rogue cell towers, forced encryption downgrades like 2G fallback, silent SMS anomalies and suspicious route redirection. Every threat log, scanned tower and telemetry row stays in an on-device Room database — zero external telemetry, no cloud dependency.",
+      "highlights": [
+        "Real-time watchdog on handovers, signal power anomalies and ciphering indicator shifts",
+        "Threat matrix with severity levels and forensic detail per alert",
+        "Cell tower scanner with local mapping and geofenced security zones"
+      ],
+      "stack": ["Kotlin", "Jetpack Compose", "Room", "Material 3"],
+      "live": null,
+      "repo": "https://github.com/TechLuddite/Cellular-Honeypot-Detector",
+      "accent": "lime"
+    },
+    {
+      "name": "jbl",
+      "title": "Joseph's Battle Lab",
+      "emoji": "🎮",
+      "tagline": "A Pokémon damage calculator that shows its working.",
+      "blurb": "Stat explorer, damage calculator and family league tracker. Every step from base stats to the sixteen possible damage rolls is visible, because the point is to make the maths legible rather than hide it behind one number. The full dex is generated at build time and committed — the app never calls PokéAPI at runtime.",
+      "highlights": [
+        "Sixteen-roll damage spread, fully derived on screen",
+        "Family league tracker for actual household bragging rights",
+        "Ships with a 52-Pokémon sample set; one script pulls the full dex"
+      ],
+      "stack": ["JavaScript", "React", "Vite"],
+      "live": "https://jbl.opsvibe.systems",
+      "repo": "https://github.com/TechLuddite/jbl",
+      "accent": "sky"
+    },
+    {
+      "name": "ai-plays-as-ai-making-paperclips",
+      "title": "AI Plays as AI Making Paperclips",
+      "emoji": "🤖",
+      "tagline": "A local LLM agent playing Universal Paperclips through the DOM. No API required.",
+      "blurb": "An Ollama-backed ReAct agent playing a game about an AI obsessed with paperclips — absurd on purpose, and a genuine proof of concept for LLM-driven browser automation where no API exists. No devtools protocol, no game hooks: DOM observation, click injection via a userscript, and a local model making decisions in a loop. The same architecture applies to any web tool that never exposed an interface.",
+      "highlights": [
+        "Runs entirely on a local model — no API key, no per-token cost",
+        "Built live on Twitch, with 100% of stream ad revenue donated to Breakthrough T1D",
+        "Written up honestly, including what the agent is bad at"
+      ],
+      "stack": ["Python", "Ollama", "ReAct", "Userscript"],
+      "live": null,
+      "repo": "https://github.com/TechLuddite/ai-plays-as-ai-making-paperclips",
+      "accent": "orange"
+    },
+    {
+      "name": "SplitSnap",
+      "title": "SplitSnap",
+      "emoji": "✂️",
+      "tagline": "Split a flatbed scan into individual, deskewed photos.",
+      "blurb": "The desktop ancestor of Cropalot. Point it at a folder of scans, and it auto-detects how many photos are on each sheet, straightens the crooked ones, crops them out at the scan's original DPI, and gives you a grouped review-and-approve pass before anything is written. Hot-watch the input folder and it becomes a hands-off pipeline.",
+      "highlights": [
+        "Auto-detects photo count per sheet, with a per-scan override and retry",
+        "Crops keep the scan's resolution and are saved at maximum quality",
+        "Originals file themselves away to processed/ once every crop is approved"
+      ],
+      "stack": ["Python", "OpenCV"],
+      "live": null,
+      "repo": "https://github.com/TechLuddite/SplitSnap",
+      "accent": "teal"
+    }
+  ]
+}
