@@ -152,11 +152,10 @@
     });
 
     // Any public repo not in repos.json still gets a card, so a new project
-    // shows up here the moment it is pushed.
+    // shows up here the moment it is pushed. (This repo is in repos.json, so
+    // `known` already covers it — the page counts itself.)
     const extras = repos.filter((r) =>
-      !r.private && !r.fork && !r.archived &&
-      !known.has(r.name.toLowerCase()) &&
-      r.name.toLowerCase() !== 'opsvibe-homepage'
+      !r.private && !r.fork && !r.archived && !known.has(r.name.toLowerCase())
     );
 
     extras.forEach((r) => {

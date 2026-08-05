@@ -151,6 +151,22 @@
       "live": null,
       "repo": "https://github.com/TechLuddite/SplitSnap",
       "accent": "teal"
+    },
+    {
+      "name": "Opsvibe-Homepage",
+      "title": "This Page",
+      "emoji": "🏠",
+      "tagline": "The homepage you are reading, listed by the same rules as everything else.",
+      "blurb": "Three files and a JSON blob — no framework, no bundler, nothing to keep patched. The project copy lives in <code>data/repos.json</code>; language, stars and last-push are pulled from the public GitHub API on load. It felt dishonest to exempt it from its own list, so here it is.",
+      "highlights": [
+        "Any public repo missing from repos.json is appended straight from the API, so new work appears here without an edit",
+        "When the API call is rate-limited, the stats read “—” and say why — the same rule the rest of these projects are built on",
+        "Deployed from the repository root by GitHub Actions, gated on repos.json parsing"
+      ],
+      "stack": ["HTML", "CSS", "Vanilla JS", "GitHub Pages"],
+      "live": "https://techluddite.github.io/Opsvibe-Homepage/",
+      "repo": "https://github.com/TechLuddite/Opsvibe-Homepage",
+      "accent": "fuchsia"
     }
   ]
 }

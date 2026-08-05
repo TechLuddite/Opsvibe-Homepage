@@ -45,6 +45,7 @@
 .card[data-accent="sky"]     { --card-accent: #56b8ff; }
 .card[data-accent="orange"]  { --card-accent: #ff9a5c; }
 .card[data-accent="teal"]    { --card-accent: #45cfd0; }
+.card[data-accent="fuchsia"] { --card-accent: #ee6fd4; }
 .card                        { --card-accent: var(--accent); }
 
 /* ── Base ────────────────────────────────────────────────────────────── */
