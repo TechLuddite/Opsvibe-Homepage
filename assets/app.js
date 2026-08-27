@@ -175,12 +175,18 @@
       registerCard(grid.lastElementChild, p);
     });
 
-    // Keep the counter honest: it reports what is on the page, not a separate
-    // tally that can disagree with it.
-    const reposStat = $('[data-stat="repos"]');
-    if (reposStat) reposStat.textContent = cards.length;
+    // Keep the counters honest: they report what is on the page, not a
+    // separate tally that can disagree with it.
+    updateStats();
 
     applyFilters();
+  }
+
+  function updateStats() {
+    const reposStat = $('[data-stat="repos"]');
+    if (reposStat) reposStat.textContent = cards.length;
+    const liveStat = $('[data-stat="live"]');
+    if (liveStat) liveStat.textContent = cards.filter((c) => c.tags.has('live')).length;
   }
 
   function registerCard(el, p) {
@@ -209,11 +215,7 @@
     cards = [];
     $$('.card', grid).forEach((el, i) => registerCard(el, projects[i]));
 
-    const liveCount = projects.filter((p) => p.live).length;
-    const liveStat = $('[data-stat="live"]');
-    if (liveStat) liveStat.textContent = liveCount;
-    const reposStat = $('[data-stat="repos"]');
-    if (reposStat) reposStat.textContent = projects.length;
+    updateStats();
 
     $$('.chip').forEach((chip) => chip.addEventListener('click', () => {
       $$('.chip').forEach((c) => c.classList.toggle('is-active', c === chip));
