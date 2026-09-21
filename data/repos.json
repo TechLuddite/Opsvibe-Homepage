@@ -237,7 +237,7 @@
       "title": "Omarchy Fleet",
       "emoji": "🖥️",
       "tagline": "Manage a fleet of Omarchy machines from a single source of truth.",
-      "blurb": "Fleet management for Omarchy: declare the state you want across multiple machines, and let the tooling converge on it. Think Ansible for your desktop fleet \u2014 package lists, config files, and dotfile state, all version-controlled and auditable. Built for anyone running more than one Omarchy box who got tired of手动 keeping them in sync.",
+      "blurb": "Fleet management for Omarchy: declare the state you want across multiple machines, and let the tooling converge on it. Think Ansible for your desktop fleet \u2014 package lists, config files, and dotfile state, all version-controlled and auditable. Built for anyone running more than one Omarchy box who got tired of manually keeping them in sync.",
       "highlights": [
         "Declarative machine state with version-controlled configuration",
         "Package and config management across multiple Omarchy installs",
