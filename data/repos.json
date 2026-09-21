@@ -13,9 +13,9 @@
       "title": "NetReady",
       "emoji": "🌐",
       "tagline": "Browser-native network diagnostics that never invent a number.",
-      "blurb": "A full diagnostics suite built on plain web APIs: fetch, WebSockets, RTCPeerConnection, the Performance Timeline, DNS-over-HTTPS. The rule that shapes the whole codebase is that when a measurement fails it reports “—” and tells you why. An earlier generated version happily produced an A grade on a machine with no internet at all; the postmortem for that is in the repo.",
+      "blurb": "A full diagnostics suite built on plain web APIs: fetch, WebSockets, RTCPeerConnection, the Performance Timeline, DNS-over-HTTPS. The rule that shapes the whole codebase is that when a measurement fails it reports \u201c\u2014\u201d and tells you why. An earlier generated version happily produced an A grade on a machine with no internet at all; the postmortem for that is in the repo.",
       "highlights": [
-        "One-button triage answers “is it me or the internet?” with ranked causes and fixes",
+        "One-button triage answers \u201cis it me or the internet?\u201d with ranked causes and fixes",
         "Offline deterministic rules engine: no model, no backend, no account",
         "Every third-party host it touches is documented in a table in the README"
       ],
@@ -25,27 +25,11 @@
       "accent": "cyan"
     },
     {
-      "name": "Endpointer",
-      "title": "Endpointer",
-      "emoji": "⚡",
-      "tagline": "A browser-native API client with a public API directory that verifies itself.",
-      "blurb": "Build a request, run it, generate client code for it in eight languages, assert on the response, then share the whole thing as a single URL. The directory of public APIs isn't a static list someone stopped maintaining: a scheduled job checks every entry and opens an issue when one breaks.",
-      "highlights": [
-        "Paste a curl command, a Postman collection, an OpenAPI doc or a HAR and it becomes an editable request",
-        "Credentials are redacted before any AI request leaves the machine, with tests asserting it",
-        "Optional proxy refuses private, loopback, link-local, CGNAT and cloud-metadata addresses, rechecked on every redirect hop"
-      ],
-      "stack": ["React 19", "TypeScript", "Tailwind v4", "Cloudflare Workers"],
-      "live": "https://endpointer.opsvibe.systems",
-      "repo": "https://github.com/TechLuddite/Endpointer",
-      "accent": "amber"
-    },
-    {
       "name": "Cropalot",
       "title": "Cropalot",
       "emoji": "📸",
       "tagline": "Pull every photo off a scanned album page, without the page ever leaving your browser.",
-      "blurb": "Scan or photograph an album sheet holding several photographs; Cropalot detects each one, corrects the perspective, and extracts it at full resolution. The privacy claim isn't a promise in a policy: index.html ships <code>connect-src 'none'</code>, so the browser refuses every outbound request before a line of app JavaScript runs. The audit is one line long.",
+      "blurb": "Scan or photograph an album sheet holding several photographs; Cropalot detects each one, corrects the perspective, and extracts it at full resolution. The privacy claim isn\u2019t a promise in a policy: index.html ships <code>connect-src \u2018none\u2019</code>, so the browser refuses every outbound request before a line of app JavaScript runs. The audit is one line long.",
       "highlights": [
         "Detection and homography warp run in a Web Worker, with an inline fallback",
         "Perceptual hashing catches duplicates across an unattended album run",
@@ -61,10 +45,10 @@
       "title": "ImgType",
       "emoji": "🖼️",
       "tagline": "Batch image conversion in tab memory. No upload, because there is no server.",
-      "blurb": "HEIC, PNG, JPG, WebP, AVIF, GIF, BMP, ICO and SVG, decoded, resized and re-encoded locally via Canvas and WebAssembly codecs. Most online converters ask you to hand a passport scan to a machine you know nothing about. This one can't: the WASM codecs are lazy-loaded, and the build publishes a SHA-384 manifest to a separate branch so the Verify button checks the site against something the site doesn't control.",
+      "blurb": "HEIC, PNG, JPG, WebP, AVIF, GIF, BMP, ICO and SVG, decoded, resized and re-encoded locally via Canvas and WebAssembly codecs. Most online converters ask you to hand a passport scan to a machine you know nothing about. This one can\u2019t: the WASM codecs are lazy-loaded, and the build publishes a SHA-384 manifest to a separate branch so the Verify button checks the site against something the site doesn\u2019t control.",
       "highlights": [
         "Metadata inspector shows the GPS coordinates and camera serial buried in a photo before stripping them",
-        "“Aim for a file size” searches for the best quality that fits under a target",
+        "\u201cAim for a file size\u201d searches for the best quality that fits under a target",
         "~120 KB gzipped initial load; offline-capable via service worker"
       ],
       "stack": ["React 19", "TypeScript", "WebAssembly", "Tailwind v4"],
@@ -77,32 +61,16 @@
       "title": "Universal AI",
       "emoji": "📎",
       "tagline": "An idle game about optimization, and about who is doing it.",
-      "blurb": "You etch NPU chips one at a time, buy a fab, then fifty, set a price and chase demand. Then you hand the wheel to an autonomous Overseer (a deterministic scorer, or Llama 3.2 1B running on your GPU through WebGPU), give it directives, and watch it drift. A tribute to Frank Lantz's Universal Paperclips. Play the original first.",
+      "blurb": "You etch NPU chips one at a time, buy a fab, then fifty, set a price and chase demand. Then you hand the wheel to an autonomous Overseer (a deterministic scorer, or Llama 3.2 1B running on your GPU through WebGPU), give it directives, and watch it drift. A tribute to Frank Lantz\u2019s Universal Paperclips. Play the original first.",
       "highlights": [
         "The simulation is a pure reducer, tick(state, now, rng): no React, no timers, no DOM",
-        "A headless run drives it to the victory condition in about half a second, as the regression guard for “this game can be finished”",
+        "A headless run drives it to the victory condition in about half a second, as the regression guard for \u201cthis game can be finished\u201d",
         "docs/LESSONS-FROM-AI-STUDIO.md catalogues the seven recurring failure shapes in the generated draft"
       ],
       "stack": ["React 19", "TypeScript", "WebGPU", "WebLLM", "Canvas"],
       "live": "https://paperclips.opsvibe.systems",
       "repo": "https://github.com/TechLuddite/Universal-AI",
       "accent": "rose"
-    },
-    {
-      "name": "Cellular-Honeypot-Detector",
-      "title": "Cellular Honeypot Detector",
-      "emoji": "📡",
-      "tagline": "Privacy-first Android tool for IMSI catchers, fake towers and baseband anomalies.",
-      "blurb": "Monitors cellular baseband telemetry for rogue cell towers, forced encryption downgrades like 2G fallback, silent SMS anomalies and suspicious route redirection. Every threat log, scanned tower and telemetry row stays in an on-device Room database: zero external telemetry, no cloud dependency.",
-      "highlights": [
-        "Real-time watchdog on handovers, signal power anomalies and ciphering indicator shifts",
-        "Threat matrix with severity levels and forensic detail per alert",
-        "Cell tower scanner with local mapping and geofenced security zones"
-      ],
-      "stack": ["Kotlin", "Jetpack Compose", "Room", "Material 3"],
-      "live": null,
-      "repo": "https://github.com/TechLuddite/Cellular-Honeypot-Detector",
-      "accent": "lime"
     },
     {
       "name": "jbl",
@@ -137,19 +105,179 @@
       "accent": "orange"
     },
     {
-      "name": "SplitSnap",
-      "title": "SplitSnap",
-      "emoji": "✂️",
-      "tagline": "Split a flatbed scan into individual, deskewed photos.",
-      "blurb": "The desktop ancestor of Cropalot. Point it at a folder of scans, and it auto-detects how many photos are on each sheet, straightens the crooked ones, crops them out at the scan's original DPI, and gives you a grouped review-and-approve pass before anything is written. Hot-watch the input folder and it becomes a hands-off pipeline.",
+      "name": "luddite-gestures",
+      "title": "Luddite Gestures",
+      "emoji": "👋",
+      "tagline": "Edit Hyprland touchpad gestures on Omarchy and see which swipes will never fire.",
+      "blurb": "A panel for configuring Hyprland touchpad gestures on Omarchy. Shows every configured swipe and tells you which ones are physically impossible on your hardware \u2014 three-finger swipes on a two-finger trackpad, that sort of thing. Fixes the problem where you set up an elaborate gesture scheme and half of it silently does nothing.",
       "highlights": [
-        "Auto-detects photo count per sheet, with a per-scan override and retry",
-        "Crops keep the scan's resolution and are saved at maximum quality",
-        "Originals file themselves away to processed/ once every crop is approved"
+        "Lists all configured gestures with their physical requirements",
+        "Detects hardware capability and flags gestures your trackpad can never trigger",
+        "Edits the Hyprland config in place with a live preview"
       ],
-      "stack": ["Python", "OpenCV"],
+      "stack": ["JavaScript", "Hyprland", "GTK"],
       "live": null,
-      "repo": "https://github.com/TechLuddite/SplitSnap",
+      "repo": "https://github.com/TechLuddite/luddite-gestures",
+      "accent": "teal"
+    },
+    {
+      "name": "ascii-save",
+      "title": "ASCII Save",
+      "emoji": "💾",
+      "tagline": "ASCII and braille screensaver workshop for Omarchy, seeded with the Giants collection.",
+      "blurb": "A screensaver engine that renders ASCII and braille art on the terminal, seeded with the complete Giants collection. Double as a workshop for creating and previewing your own screensaver content. Drop in an image, get braille; drop in text, get ANSI art. Built for the kind of desktop where a blank screen is a wasted screen.",
+      "highlights": [
+        "Complete Giants ASCII art collection included out of the box",
+        "Braille rendering for high-resolution terminal displays",
+        "Workshop mode for creating and previewing new screensaver content"
+      ],
+      "stack": ["Python", "Terminal", "ASCII Art"],
+      "live": null,
+      "repo": "https://github.com/TechLuddite/ascii-save",
+      "accent": "lime"
+    },
+    {
+      "name": "kitty-come-home",
+      "title": "Kitty Come Home",
+      "emoji": "🐱",
+      "tagline": "AI-powered lost pet finder that works offline and in a crisis.",
+      "blurb": "An offline-first web app for finding lost pets. Generate printable flyers, search local databases, and coordinate with neighbours \u2014 all without an internet connection. Built for the moment you discover a missing pet and your phone has two bars of signal. Supabase-backed when online, fully functional when not.",
+      "highlights": [
+        "Offline-first: every core feature works without a network connection",
+        "Generates print-ready lost pet flyers from a photo and description",
+        "Supabase sync when connectivity returns, no data lost in the gap"
+      ],
+      "stack": ["HTML", "JavaScript", "Supabase", "PWA"],
+      "live": "https://kittycomehome.org/",
+      "repo": "https://github.com/TechLuddite/kitty-come-home",
+      "accent": "amber"
+    },
+    {
+      "name": "hopper-day",
+      "title": "Hopper Day",
+      "emoji": "⚓",
+      "tagline": "August 14: the day computers started speaking human.",
+      "blurb": "An open-source celebration of Grace Hopper\u2019s birthday and the moment computers learned to speak human languages. A GitHub Pages landing page with the history, the significance, and the connection to the modern AI era. MIT licensed because Grace would have wanted it that way.",
+      "highlights": [
+        "GitHub Pages landing page with the full history of Hopper\u2019s contribution",
+        "Celebrates the throughline from COBOL to modern AI coding assistants",
+        "MIT licensed, designed to be forked and re-skinned for your own events"
+      ],
+      "stack": ["HTML", "CSS", "GitHub Pages"],
+      "live": "https://techluddite.github.io/hopper-day/",
+      "repo": "https://github.com/TechLuddite/hopper-day",
+      "accent": "fuchsia"
+    },
+    {
+      "name": "gpg",
+      "title": "Grace's Playground",
+      "emoji": "🕹️",
+      "tagline": "A browser playground for experimenting with Grace Hopper\u2019s legacy.",
+      "blurb": "An interactive browser-based playground. Small, focused, and fun \u2014 the kind of project that exists because an idea was too good not to build. Hosted on GitHub Pages so there\u2019s nothing to install.",
+      "highlights": [
+        "Runs entirely in the browser, no backend required",
+        "Hosted on GitHub Pages for zero-cost deployment",
+        "MIT licensed"
+      ],
+      "stack": ["JavaScript", "HTML", "GitHub Pages"],
+      "live": null,
+      "repo": "https://github.com/TechLuddite/gpg",
+      "accent": "rose"
+    },
+    {
+      "name": "NeverDrop",
+      "title": "NeverDrop",
+      "emoji": "🎒",
+      "tagline": "Road to Vostok mod that removes drop-on-collide for carried items.",
+      "blurb": "A mod for Road to Vostok that removes the frustrating drop-on-collide behaviour with carried items. Because losing your carefully scavenged gear to a physics glitch is not the kind of challenge the game designers intended. Simple, focused, and does exactly one thing well.",
+      "highlights": [
+        "Removes drop-on-collide for all carried items",
+        "Compatible with the latest Road to Vostok build",
+        "Godot-native, no external dependencies"
+      ],
+      "stack": ["Python", "Godot", "GDScript"],
+      "live": null,
+      "repo": "https://github.com/TechLuddite/NeverDrop",
+      "accent": "sky"
+    },
+    {
+      "name": "Memory-Wall",
+      "title": "Memory Wall",
+      "emoji": "🧠",
+      "tagline": "The memory wall, documented. NPU, DRAM and storage R&D, rigorously sourced.",
+      "blurb": "An open knowledge base on the memory wall: NPU compute, DRAM bandwidth, storage hierarchies, and the R&D timelines behind them. Every claim is cited, every source linked outward. Covers the hardware development histories that marketing materials skip, and maps honestly where public knowledge ends and speculation begins. Built for learners and for whoever builds the next entrant.",
+      "highlights": [
+        "Annotated bibliographies with every claim traced to a primary source",
+        "Hardware development histories from DRAM generations through NPU architectures",
+        "Honest maps of where public knowledge ends \u2014 no speculation presented as fact"
+      ],
+      "stack": ["JavaScript", "HTML", "GitHub Pages"],
+      "live": "https://memory-wall.opsvibe.systems/",
+      "repo": "https://github.com/TechLuddite/Memory-Wall",
+      "accent": "cyan"
+    },
+    {
+      "name": "opinionated-omarchy",
+      "title": "Opinionated Omarchy",
+      "emoji": "🎨",
+      "tagline": "Personal Omarchy config, curated and documented with a rationale for every change.",
+      "blurb": "A fork of Omarchy with personal tweaks to window management, theming and workflow. Every change comes with a commit message explaining <em>why</em>, not just <em>what</em> \u2014 designed to be browsed on GitHub Pages before you decide whether to adopt any of it. The kind of dotfile repo that teaches by showing its reasoning.",
+      "highlights": [
+        "Each config change is a separate, documented decision",
+        "Browsable as a GitHub Pages site before you clone anything",
+        "Focused on Hyprland workspace rules, keybinds and theme choices"
+      ],
+      "stack": ["Python", "Hyprland", "Shell"],
+      "live": "https://techluddite.github.io/opinionated-omarchy/",
+      "repo": "https://github.com/TechLuddite/opinionated-omarchy",
+      "accent": "lime"
+    },
+    {
+      "name": "omarchy-fleet",
+      "title": "Omarchy Fleet",
+      "emoji": "🖥️",
+      "tagline": "Manage a fleet of Omarchy machines from a single source of truth.",
+      "blurb": "Fleet management for Omarchy: declare the state you want across multiple machines, and let the tooling converge on it. Think Ansible for your desktop fleet \u2014 package lists, config files, and dotfile state, all version-controlled and auditable. Built for anyone running more than one Omarchy box who got tired of手动 keeping them in sync.",
+      "highlights": [
+        "Declarative machine state with version-controlled configuration",
+        "Package and config management across multiple Omarchy installs",
+        "Audit trail: every change is a commit, every rollback is a revert"
+      ],
+      "stack": ["Shell", "Ansible", "Linux"],
+      "live": null,
+      "repo": "https://github.com/TechLuddite/omarchy-fleet",
+      "accent": "amber"
+    },
+    {
+      "name": "omarchy-fleet-iso",
+      "title": "Omarchy Fleet ISO",
+      "emoji": "💿",
+      "tagline": "Build custom Omarchy ISOs for fleet provisioning.",
+      "blurb": "Generates bootable Omarchy ISOs pre-configured with your fleet settings. Point it at your fleet config, get an ISO that boots into a fully configured Omarchy install. Eliminates the manual setup step when spinning up a new machine in the fleet.",
+      "highlights": [
+        "Generates bootable ISOs from fleet configuration",
+        "Pre-installs packages and applies config on first boot",
+        "Designed for rapid provisioning of identical Omarchy machines"
+      ],
+      "stack": ["Shell", "Linux", "ISO Build"],
+      "live": null,
+      "repo": "https://github.com/TechLuddite/omarchy-fleet-iso",
+      "accent": "orange"
+    },
+    {
+      "name": "omarchy-fleet-pkgs",
+      "title": "Omarchy Fleet Packages",
+      "emoji": "📦",
+      "tagline": "Package mirror for Omarchy Fleet, keeping fleet machines on vetted versions.",
+      "blurb": "A private mirror of omacom/omarchy-pkgs for Omarchy Fleet (D16). Pins package versions so fleet machines don\u2019t break when upstream moves. Acts as the single source of package truth for fleet provisioning and updates.",
+      "highlights": [
+        "Pinned package versions prevent surprise breakage across the fleet",
+        "Mirror of upstream omarchy-pkgs with fleet-specific patches",
+        "Used by fleet provisioning to guarantee reproducible installs"
+      ],
+      "stack": ["Shell", "Package Management"],
+      "live": null,
+      "repo": "https://github.com/TechLuddite/omarchy-fleet-pkgs",
       "accent": "teal"
     },
     {
@@ -160,7 +288,7 @@
       "blurb": "Three files and a JSON blob: no framework, no bundler, nothing to keep patched. The project copy lives in <code>data/repos.json</code>; language, stars and last-push are pulled from the public GitHub API on load. It felt dishonest to exempt it from its own list, so here it is.",
       "highlights": [
         "Any public repo missing from repos.json is appended straight from the API, so new work appears here without an edit",
-        "When the API call is rate-limited, the stats read “—” and say why, the same rule the rest of these projects are built on",
+        "When the API call is rate-limited, the stats read \u201c\u2014\u201d and say why, the same rule the rest of these projects are built on",
         "Deployed from the repository root by GitHub Actions, gated on repos.json parsing"
       ],
       "stack": ["HTML", "CSS", "Vanilla JS", "GitHub Pages"],
