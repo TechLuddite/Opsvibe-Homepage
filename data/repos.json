@@ -25,38 +25,6 @@
       "accent": "cyan"
     },
     {
-      "name": "Cropalot",
-      "title": "Cropalot",
-      "emoji": "📸",
-      "tagline": "Pull every photo off a scanned album page, without the page ever leaving your browser.",
-      "blurb": "Scan or photograph an album sheet holding several photographs; Cropalot detects each one, corrects the perspective, and extracts it at full resolution. The privacy claim isn\u2019t a promise in a policy: index.html ships <code>connect-src \u2018none\u2019</code>, so the browser refuses every outbound request before a line of app JavaScript runs. The audit is one line long.",
-      "highlights": [
-        "Detection and homography warp run in a Web Worker, with an inline fallback",
-        "Perceptual hashing catches duplicates across an unattended album run",
-        "Shows its commit SHA and rebuild instructions instead of a green badge it drew for itself"
-      ],
-      "stack": ["React", "TypeScript", "Web Workers", "IndexedDB", "PWA"],
-      "live": "https://cropalot.opsvibe.systems",
-      "repo": "https://github.com/TechLuddite/Cropalot",
-      "accent": "violet"
-    },
-    {
-      "name": "ImgType",
-      "title": "ImgType",
-      "emoji": "🖼️",
-      "tagline": "Batch image conversion in tab memory. No upload, because there is no server.",
-      "blurb": "HEIC, PNG, JPG, WebP, AVIF, GIF, BMP, ICO and SVG, decoded, resized and re-encoded locally via Canvas and WebAssembly codecs. Most online converters ask you to hand a passport scan to a machine you know nothing about. This one can\u2019t: the WASM codecs are lazy-loaded, and the build publishes a SHA-384 manifest to a separate branch so the Verify button checks the site against something the site doesn\u2019t control.",
-      "highlights": [
-        "Metadata inspector shows the GPS coordinates and camera serial buried in a photo before stripping them",
-        "\u201cAim for a file size\u201d searches for the best quality that fits under a target",
-        "~120 KB gzipped initial load; offline-capable via service worker"
-      ],
-      "stack": ["React 19", "TypeScript", "WebAssembly", "Tailwind v4"],
-      "live": "https://imgtype.opsvibe.systems",
-      "repo": "https://github.com/TechLuddite/ImgType",
-      "accent": "emerald"
-    },
-    {
       "name": "Universal-AI",
       "title": "Universal AI",
       "emoji": "📎",
