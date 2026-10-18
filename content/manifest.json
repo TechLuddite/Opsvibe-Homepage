@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "version": "opsvibe-content-2026-10-18-v1",
+  "created_at": "2026-10-18T10:22:25.318072+00:00",
+  "as_of": "2026-10-18T10:01:16.778449+00:00",
+  "entrypoint": "homepage.json",
+  "sha256": {
+    "homepage.json": "e9fefd7bf32f9cae65f53af75dbc02a8a00361f56427daafc59e5b78cd615db3",
+    "sections.html": "991a9383ce8f1a507eb46a296b0012516f9bb92d75eebc0de73eb2c0fa069a27",
+    "README.md": "18abe914e9404dcf5cd2e07eaefc547c40108d87b0cdfa0e871c31991a8b4fbe"
+  },
+  "policies": {
+    "projects": "Public repositories with owner login TechLuddite (case-insensitive), fork=false. No fork records or fork filter options in a deployed design.",
+    "attribution": "Account ownership and non-fork status do not establish original authorship or exclusive ownership of code. Credit and license terms remain with the respective authors and projects.",
+    "upstream_prs": "Include every discovered, individually verified public authored PR to another owner. No per-repository cap. Preserve merged/open/closed-unmerged and draft flags. Search is a frozen bounded discovery, not all historical work.",
+    "twitch": "Keep Twitch link; gaming-only now; follows appreciated; ongoing charity. No development-streaming, beneficiary or percentage claim. Historical charity acknowledgment is not a current beneficiary claim.",
+    "design_only": "Frozen inputs; future daily work consumes content/ read-only, changes design only, never refreshes facts or alters content without new operator direction.",
+    "approval": "Operator-directed content baseline only. Neither design approval nor publication authorization."
+  },
+  "counts": {
+    "projects": 24,
+    "upstream_prs": 34,
+    "states": {
+      "open": 19,
+      "merged": 12,
+      "closed-unmerged": 3
+    },
+    "drafts": 8
+  }
+}

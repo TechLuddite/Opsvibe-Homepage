@@ -1,0 +1,161 @@
+  <section id="about" class="section section-alt">
+    <div class="wrap about-grid">
+      <div>
+        <h2>About</h2>
+        <p>
+          I'm a technical services director at a managed service provider. Nearly thirty years
+          of that career has been hardware, networks, servers, and eventually the security
+          decisions. Programming was the one thing I deliberately left to other people.
+        </p>
+        <p>
+          The AI shift made that position impractical. My assumption is that you can't make
+          sound security and service decisions about tooling you've never used hands-on, and
+          the use cases, supply chains, and data flows underneath managed services are all
+          changing at once. These projects are how I'm closing that gap: built in public,
+          and honest about what went wrong along the way.
+        </p>
+        <p>
+          Several of these apps started as one-shot generations in an AI studio and were then
+          audited line by line. Most shipped with a postmortem in the repo, because the bugs
+          weren't random. They fell into recurring shapes, and the worst of them were apps
+          reporting results they hadn't actually measured. The house rules here came directly
+          from those postmortems.
+        </p>
+        <p class="muted">
+          None of this is an endorsement of how AI is currently being deployed. It's an attempt
+          to understand it properly, which I believe is the only responsible position for
+          someone making these calls.
+        </p>
+      </div>
+
+      <aside class="principles" aria-label="How these projects are built">
+        <h3>House rules</h3>
+        <ol>
+          <li>
+            <strong>Never invent a number.</strong> A failed measurement reads “—” with a
+            reason, never a plausible substitute.
+          </li>
+          <li>
+            <strong>No self-drawn badges.</strong> An app can't prove its own integrity. Show
+            the commit SHA and how to rebuild it instead.
+          </li>
+          <li>
+            <strong>No backend unless there must be one.</strong> No accounts, no telemetry, no
+            database of other people's photos to lose.
+          </li>
+          <li>
+            <strong>Document what leaves the browser.</strong> Every third-party host, in a
+            table, in the README.
+          </li>
+          <li>
+            <strong>Gates that actually gate.</strong> Strict typecheck, lint and tests on every
+            push; deployment blocked on green.
+          </li>
+          <li>
+            <strong>Check the license.</strong> Each repository and its dependencies carry their own terms.
+          </li>
+        </ol>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ── Support ────────────────────────────────────────────────────── -->
+  <section id="support" class="section">
+    <div class="wrap">
+      <header class="section-head">
+        <h2>Support</h2>
+        <p>If one of these tools saved you an afternoon, here are the practical support options. Check each repository for its license and terms:</p>
+      </header>
+
+      <div class="support-grid">
+        <a class="support-card" href="https://paypal.me/techluddite">
+          <span class="support-icon" aria-hidden="true">💳</span>
+          <span class="support-title">PayPal</span>
+          <span class="support-sub">paypal.me/techluddite. One-off, no subscription, no tiers</span>
+        </a>
+        <a class="support-card" href="https://github.com/TechLuddite">
+          <span class="support-icon" aria-hidden="true">⭐</span>
+          <span class="support-title">Star a repo</span>
+          <span class="support-sub">Costs nothing and helps the most. Stars are the only signal these projects get</span>
+        </a>
+        <a class="support-card" href="https://www.twitch.tv/techluddite">
+          <span class="support-icon" aria-hidden="true">📺</span>
+          <span class="support-title">Twitch</span>
+          <span class="support-sub">Twitch is gaming-only now. Follows are appreciated, and charity support is ongoing.</span>
+        </a>
+</div>
+
+      <p class="note">
+        Bug reports and pull requests are practical ways to help. Check each repository
+        for its issue settings and contribution guidance.
+      </p>
+    </div>
+  </section>
+
+  <!-- ── Shout-outs ─────────────────────────────────────────────────── -->
+  <section id="shoutouts" class="section section-alt">
+    <div class="wrap">
+      <header class="section-head">
+        <h2>Shout-outs</h2>
+        <p>The people and projects these repos owe something to. Credit where it's due.</p>
+      </header>
+
+      <div class="shout-grid">
+        <a class="shout" href="https://halomsp.com">
+          <h3>Halo MSP</h3>
+          <p>
+            Helping businesses with safe and sensible AI and software implementation. The
+            conversations there keep the rules on this page grounded in what actually goes
+            wrong in production.
+          </p>
+          <span class="shout-link">halomsp.com</span>
+        </a>
+
+        <a class="shout" href="https://www.tech2u.com">
+          <h3>Tech 2U</h3>
+          <p>
+            Parent company, and expert IT support and services: computer repair, hardware
+            diagnostics, and the technical support side of the house.
+          </p>
+          <span class="shout-link">tech2u.com</span>
+        </a>
+
+        <a class="shout" href="https://www.decisionproblem.com/paperclips/">
+          <h3>Frank Lantz &amp; Everybody House Games</h3>
+          <p>
+            For <em>Universal Paperclips</em>, one of the great thought experiments in AI
+            philosophy, disguised as a game about stationery. Two projects here are tributes to
+            it. Play the original first.
+          </p>
+          <span class="shout-link">decisionproblem.com</span>
+        </a>
+
+        <a class="shout" href="https://www.breakthrought1d.org/">
+          <h3>Breakthrough T1D</h3>
+          <p>
+            Type 1 diabetes research and advocacy. Retained from the original acknowledgments;
+            this is not a claim about the current charity beneficiary.
+          </p>
+          <span class="shout-link">breakthrought1d.org</span>
+        </a>
+
+        <a class="shout" href="https://react.dev/">
+          <h3>The open-source stack</h3>
+          <p>
+            React, TypeScript, Vite, Tailwind, Vitest, Lucide, Leaflet, Recharts, OpenCV,
+            Ollama, libheif and libavif. None of this gets built solo in a year.
+          </p>
+          <span class="shout-link">react.dev · vitejs.dev · tailwindcss.com</span>
+        </a>
+
+        <a class="shout" href="https://developers.cloudflare.com/1.1.1.1/encryption/dns-over-https/">
+          <h3>The public infrastructure</h3>
+          <p>
+            Cloudflare and Google Public DNS for DoH, OpenStreetMap and CARTO for basemaps, the
+            IEEE OUI registry, and the CDNs that let a backend-free app measure a real network.
+          </p>
+          <span class="shout-link">Documented per-host in each README</span>
+        </a>
+      </div>
+    </div>
+  </section>
