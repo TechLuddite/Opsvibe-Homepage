@@ -1,26 +1,50 @@
 {
-  "fetched_at": "2026-10-18T10:01:16.778449+00:00",
+  "fetched_at": "2026-10-19T18:34:48.040029+00:00",
   "query": "is:pr author:TechLuddite is:public",
   "search_pages": 3,
-  "search_total": 224,
-  "search_collected": 224,
+  "search_total": 233,
+  "search_collected": 233,
   "incomplete_results": false,
   "public_owned_repos": 24,
-  "deduplicated_upstream_prs": 34,
+  "deduplicated_upstream_prs": 37,
   "states": {
-    "open": 19,
-    "merged": 12,
+    "open": 13,
+    "merged": 21,
     "closed-unmerged": 3
   },
-  "scope": "Public owner repos and public authored PR search. Excludes TechLuddite target owner case-insensitively. Deduplicated by canonical PR URL. Every upstream PR individually checked on source repository, and repository privacy checked before fetching PR detail. No issues or reviews included.",
-  "limitations": "GitHub search can lag and is capped at 1000. No claim of all historical contributions. Metadata homepage links do not establish uptime. Prior snapshot featured a subset, so coverage growth does not establish new contributions.",
+  "scope": "Public authored PRs to targets not owned by TechLuddite. Target repositories checked public before individual PR detail. Deduplicated by immutable PR node ID and canonical URL. All discovered verified records retained, without per-repository cap. Prior public URLs missing from search rechecked. Project counts, inventory and project metadata below are unchanged frozen baseline values, not recollected.",
+  "limitations": "GitHub search may lag, change during pagination and is capped at 1,000 results. This capture is a bounded public snapshot, not all historical contributions or live activity. Open PRs are proposals, not shipped work.",
   "source_owner_inventory_before_filter": 30,
   "project_scope": "Public repositories with owner login TechLuddite (case-insensitive), fork=false. No fork records or fork filter options in a deployed design.",
   "content_version": "opsvibe-content-2026-10-18-v1",
   "canonical_homepage_sha256": "e9fefd7bf32f9cae65f53af75dbc02a8a00361f56427daafc59e5b78cd615db3",
-  "as_of": "2026-10-18T10:01:16.778449+00:00",
+  "as_of": "2026-10-19T18:34:48.040029+00:00",
   "live": false,
   "sources": [
+    {
+      "path": "content/upstream.json",
+      "sha256": "8e81567498591305158a419ce9523dfe89313f11ba37c27b7ce8a9984d2da907",
+      "captured_at": "2026-10-19T18:34:48.040029+00:00"
+    },
+    {
+      "path": "content/upstream-manifest.json",
+      "sha256": "0d96a38ef7815f11acc5b0db2e7c0e99a1113743ae18e77567599aa211bf62db",
+      "captured_at": "2026-10-19T18:34:48.040029+00:00"
+    },
+    {
+      "path": "content/homepage.json",
+      "sha256": "e9fefd7bf32f9cae65f53af75dbc02a8a00361f56427daafc59e5b78cd615db3",
+      "captured_at": "2026-10-18T10:01:16.778449+00:00",
+      "scope": "Non-Upstream baseline"
+    }
+  ],
+  "attribution_note": "Account ownership and non-fork status do not establish original authorship or exclusive ownership of code. Credit and license terms remain with the respective authors and projects.",
+  "project_capture_as_of": "2026-10-18T10:01:16.778449+00:00",
+  "project_catalog_refreshed": false,
+  "drafts": 7,
+  "upstream_version": "opsvibe-upstream-2026-10-19-v1",
+  "capture_started_at": "2026-10-19T18:34:21.904716+00:00",
+  "baseline_sources": [
     {
       "local_path": "pitches/2026-10-18-02/evidence/public-repos.json",
       "sha256": "17c39230a15d03caec918a9fa386b9b499623e52e57ff84fdba74c47dffe174b",
@@ -46,6 +70,5 @@
       "sha256": "b6cbca704750007e29c7d4becdf32167f22b99d48728dd3c97e8397a3a5e9cd6",
       "captured_at": null
     }
-  ],
-  "attribution_note": "Account ownership and non-fork status do not establish original authorship or exclusive ownership of code. Credit and license terms remain with the respective authors and projects."
+  ]
 }

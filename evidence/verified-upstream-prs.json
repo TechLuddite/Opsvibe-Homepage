@@ -1,118 +1,173 @@
 {
-  "fetched_at": "2026-10-18T10:01:16.778449+00:00",
+  "fetched_at": "2026-10-19T18:34:48.040029+00:00",
+  "upstream_version": "opsvibe-upstream-2026-10-19-v1",
   "content_version": "opsvibe-content-2026-10-18-v1",
+  "live": false,
   "data": [
+    {
+      "number": 14,
+      "title": "Keep the profile name field usable in narrow windows",
+      "repository": "perminder-klair/omarchy-controller-control",
+      "html_url": "https://github.com/perminder-klair/omarchy-controller-control/pull/14",
+      "verified_state": "open",
+      "draft": false,
+      "merged_at": null,
+      "closed_at": null,
+      "updated_at": "2026-10-18T17:59:52Z",
+      "author": "TechLuddite",
+      "public": true,
+      "source_url": "https://api.github.com/repos/perminder-klair/omarchy-controller-control/pulls/14",
+      "node_id": "PR_kwDOT8eqlM8AAAABJL7Gbg"
+    },
+    {
+      "number": 13,
+      "title": "Keep binding shortcuts on the visible Bindings tab",
+      "repository": "perminder-klair/omarchy-controller-control",
+      "html_url": "https://github.com/perminder-klair/omarchy-controller-control/pull/13",
+      "verified_state": "open",
+      "draft": false,
+      "merged_at": null,
+      "closed_at": null,
+      "updated_at": "2026-10-18T17:59:43Z",
+      "author": "TechLuddite",
+      "public": true,
+      "source_url": "https://api.github.com/repos/perminder-klair/omarchy-controller-control/pulls/13",
+      "node_id": "PR_kwDOT8eqlM8AAAABJL7ByQ"
+    },
     {
       "number": 11,
       "title": "Add named OS profiles with confirmed deletion",
       "repository": "perminder-klair/omarchy-controller-control",
       "html_url": "https://github.com/perminder-klair/omarchy-controller-control/pull/11",
-      "verified_state": "open",
+      "verified_state": "merged",
       "draft": true,
-      "merged_at": null,
-      "closed_at": null,
-      "updated_at": "2026-10-18T09:31:00Z",
+      "merged_at": "2026-10-18T17:17:15Z",
+      "closed_at": "2026-10-18T17:17:15Z",
+      "updated_at": "2026-10-18T17:17:15Z",
       "author": "TechLuddite",
       "public": true,
-      "source_url": "https://api.github.com/repos/perminder-klair/omarchy-controller-control/pulls/11"
-    },
-    {
-      "number": 10,
-      "title": "Add optional pointer and scrolling in OS mode",
-      "repository": "perminder-klair/omarchy-controller-control",
-      "html_url": "https://github.com/perminder-klair/omarchy-controller-control/pull/10",
-      "verified_state": "open",
-      "draft": true,
-      "merged_at": null,
-      "closed_at": null,
-      "updated_at": "2026-10-18T09:30:59Z",
-      "author": "TechLuddite",
-      "public": true,
-      "source_url": "https://api.github.com/repos/perminder-klair/omarchy-controller-control/pulls/10"
-    },
-    {
-      "number": 9,
-      "title": "Add opt-in Game/OS controller modes",
-      "repository": "perminder-klair/omarchy-controller-control",
-      "html_url": "https://github.com/perminder-klair/omarchy-controller-control/pull/9",
-      "verified_state": "open",
-      "draft": true,
-      "merged_at": null,
-      "closed_at": null,
-      "updated_at": "2026-10-18T09:30:58Z",
-      "author": "TechLuddite",
-      "public": true,
-      "source_url": "https://api.github.com/repos/perminder-klair/omarchy-controller-control/pulls/9"
+      "source_url": "https://api.github.com/repos/perminder-klair/omarchy-controller-control/pulls/11",
+      "node_id": "PR_kwDOT8eqlM8AAAABJImtxw"
     },
     {
       "number": 8,
       "title": "Show potential compositor mapping overlaps",
       "repository": "perminder-klair/omarchy-controller-control",
       "html_url": "https://github.com/perminder-klair/omarchy-controller-control/pull/8",
-      "verified_state": "open",
+      "verified_state": "merged",
       "draft": true,
-      "merged_at": null,
-      "closed_at": null,
-      "updated_at": "2026-10-18T09:30:56Z",
+      "merged_at": "2026-10-18T17:17:14Z",
+      "closed_at": "2026-10-18T17:17:15Z",
+      "updated_at": "2026-10-18T17:17:15Z",
       "author": "TechLuddite",
       "public": true,
-      "source_url": "https://api.github.com/repos/perminder-klair/omarchy-controller-control/pulls/8"
+      "source_url": "https://api.github.com/repos/perminder-klair/omarchy-controller-control/pulls/8",
+      "node_id": "PR_kwDOT8eqlM8AAAABJImrpw"
     },
     {
-      "number": 7,
-      "title": "Add a searchable standard-key picker",
+      "number": 9,
+      "title": "Add opt-in Game/OS controller modes",
       "repository": "perminder-klair/omarchy-controller-control",
-      "html_url": "https://github.com/perminder-klair/omarchy-controller-control/pull/7",
-      "verified_state": "open",
+      "html_url": "https://github.com/perminder-klair/omarchy-controller-control/pull/9",
+      "verified_state": "merged",
       "draft": true,
-      "merged_at": null,
-      "closed_at": null,
-      "updated_at": "2026-10-18T09:30:55Z",
+      "merged_at": "2026-10-18T17:17:15Z",
+      "closed_at": "2026-10-18T17:17:15Z",
+      "updated_at": "2026-10-18T17:17:15Z",
       "author": "TechLuddite",
       "public": true,
-      "source_url": "https://api.github.com/repos/perminder-klair/omarchy-controller-control/pulls/7"
-    },
-    {
-      "number": 6,
-      "title": "Pick mappings from current Hyprland keyboard shortcuts",
-      "repository": "perminder-klair/omarchy-controller-control",
-      "html_url": "https://github.com/perminder-klair/omarchy-controller-control/pull/6",
-      "verified_state": "open",
-      "draft": true,
-      "merged_at": null,
-      "closed_at": null,
-      "updated_at": "2026-10-18T09:30:54Z",
-      "author": "TechLuddite",
-      "public": true,
-      "source_url": "https://api.github.com/repos/perminder-klair/omarchy-controller-control/pulls/6"
+      "source_url": "https://api.github.com/repos/perminder-klair/omarchy-controller-control/pulls/9",
+      "node_id": "PR_kwDOT8eqlM8AAAABJImsUg"
     },
     {
       "number": 5,
       "title": "Add an optional window for editing controller mappings",
       "repository": "perminder-klair/omarchy-controller-control",
       "html_url": "https://github.com/perminder-klair/omarchy-controller-control/pull/5",
-      "verified_state": "open",
-      "draft": true,
-      "merged_at": null,
-      "closed_at": null,
-      "updated_at": "2026-10-18T09:30:53Z",
+      "verified_state": "merged",
+      "draft": false,
+      "merged_at": "2026-10-18T17:17:15Z",
+      "closed_at": "2026-10-18T17:17:15Z",
+      "updated_at": "2026-10-18T17:17:15Z",
       "author": "TechLuddite",
       "public": true,
-      "source_url": "https://api.github.com/repos/perminder-klair/omarchy-controller-control/pulls/5"
+      "source_url": "https://api.github.com/repos/perminder-klair/omarchy-controller-control/pulls/5",
+      "node_id": "PR_kwDOT8eqlM8AAAABJImpfw"
+    },
+    {
+      "number": 7,
+      "title": "Add a searchable standard-key picker",
+      "repository": "perminder-klair/omarchy-controller-control",
+      "html_url": "https://github.com/perminder-klair/omarchy-controller-control/pull/7",
+      "verified_state": "merged",
+      "draft": true,
+      "merged_at": "2026-10-18T17:17:15Z",
+      "closed_at": "2026-10-18T17:17:15Z",
+      "updated_at": "2026-10-18T17:17:15Z",
+      "author": "TechLuddite",
+      "public": true,
+      "source_url": "https://api.github.com/repos/perminder-klair/omarchy-controller-control/pulls/7",
+      "node_id": "PR_kwDOT8eqlM8AAAABJImq8A"
+    },
+    {
+      "number": 6,
+      "title": "Pick mappings from current Hyprland keyboard shortcuts",
+      "repository": "perminder-klair/omarchy-controller-control",
+      "html_url": "https://github.com/perminder-klair/omarchy-controller-control/pull/6",
+      "verified_state": "merged",
+      "draft": true,
+      "merged_at": "2026-10-18T17:17:15Z",
+      "closed_at": "2026-10-18T17:17:15Z",
+      "updated_at": "2026-10-18T17:17:15Z",
+      "author": "TechLuddite",
+      "public": true,
+      "source_url": "https://api.github.com/repos/perminder-klair/omarchy-controller-control/pulls/6",
+      "node_id": "PR_kwDOT8eqlM8AAAABJImqSw"
+    },
+    {
+      "number": 10,
+      "title": "Add optional pointer and scrolling in OS mode",
+      "repository": "perminder-klair/omarchy-controller-control",
+      "html_url": "https://github.com/perminder-klair/omarchy-controller-control/pull/10",
+      "verified_state": "merged",
+      "draft": true,
+      "merged_at": "2026-10-18T17:17:14Z",
+      "closed_at": "2026-10-18T17:17:15Z",
+      "updated_at": "2026-10-18T17:17:15Z",
+      "author": "TechLuddite",
+      "public": true,
+      "source_url": "https://api.github.com/repos/perminder-klair/omarchy-controller-control/pulls/10",
+      "node_id": "PR_kwDOT8eqlM8AAAABJImtJw"
+    },
+    {
+      "number": 12,
+      "title": "Pin key alias ABI expectations and clarify compatibility",
+      "repository": "perminder-klair/omarchy-controller-control",
+      "html_url": "https://github.com/perminder-klair/omarchy-controller-control/pull/12",
+      "verified_state": "merged",
+      "draft": false,
+      "merged_at": "2026-10-18T17:03:54Z",
+      "closed_at": "2026-10-18T17:03:54Z",
+      "updated_at": "2026-10-18T17:03:54Z",
+      "author": "TechLuddite",
+      "public": true,
+      "source_url": "https://api.github.com/repos/perminder-klair/omarchy-controller-control/pulls/12",
+      "node_id": "PR_kwDOT8eqlM8AAAABJJu6Cw"
     },
     {
       "number": 4,
       "title": "Accept additional XKB and media key aliases",
       "repository": "perminder-klair/omarchy-controller-control",
       "html_url": "https://github.com/perminder-klair/omarchy-controller-control/pull/4",
-      "verified_state": "open",
+      "verified_state": "merged",
       "draft": false,
-      "merged_at": null,
-      "closed_at": null,
-      "updated_at": "2026-10-18T09:30:51Z",
+      "merged_at": "2026-10-18T10:34:51Z",
+      "closed_at": "2026-10-18T10:34:51Z",
+      "updated_at": "2026-10-18T10:37:20Z",
       "author": "TechLuddite",
       "public": true,
-      "source_url": "https://api.github.com/repos/perminder-klair/omarchy-controller-control/pulls/4"
+      "source_url": "https://api.github.com/repos/perminder-klair/omarchy-controller-control/pulls/4",
+      "node_id": "PR_kwDOT8eqlM8AAAABJImolQ"
     },
     {
       "number": 2,
@@ -126,7 +181,8 @@
       "updated_at": "2026-10-18T08:02:06Z",
       "author": "TechLuddite",
       "public": true,
-      "source_url": "https://api.github.com/repos/perminder-klair/omarchy-controller-control/pulls/2"
+      "source_url": "https://api.github.com/repos/perminder-klair/omarchy-controller-control/pulls/2",
+      "node_id": "PR_kwDOT8eqlM8AAAABIyZqaQ"
     },
     {
       "number": 82,
@@ -140,7 +196,8 @@
       "updated_at": "2026-10-18T01:59:55Z",
       "author": "TechLuddite",
       "public": true,
-      "source_url": "https://api.github.com/repos/omacom/gliff/pulls/82"
+      "source_url": "https://api.github.com/repos/omacom/gliff/pulls/82",
+      "node_id": "PR_kwDOUYZXrs8AAAABJGW7yg"
     },
     {
       "number": 68,
@@ -154,7 +211,8 @@
       "updated_at": "2026-10-18T01:57:03Z",
       "author": "TechLuddite",
       "public": true,
-      "source_url": "https://api.github.com/repos/omacom/gliff/pulls/68"
+      "source_url": "https://api.github.com/repos/omacom/gliff/pulls/68",
+      "node_id": "PR_kwDOUYZXrs8AAAABIxbf3Q"
     },
     {
       "number": 67,
@@ -168,7 +226,8 @@
       "updated_at": "2026-10-18T01:57:01Z",
       "author": "TechLuddite",
       "public": true,
-      "source_url": "https://api.github.com/repos/omacom/gliff/pulls/67"
+      "source_url": "https://api.github.com/repos/omacom/gliff/pulls/67",
+      "node_id": "PR_kwDOUYZXrs8AAAABIxbXWg"
     },
     {
       "number": 66,
@@ -182,7 +241,8 @@
       "updated_at": "2026-10-18T01:56:59Z",
       "author": "TechLuddite",
       "public": true,
-      "source_url": "https://api.github.com/repos/omacom/gliff/pulls/66"
+      "source_url": "https://api.github.com/repos/omacom/gliff/pulls/66",
+      "node_id": "PR_kwDOUYZXrs8AAAABIxZiRA"
     },
     {
       "number": 65,
@@ -196,7 +256,8 @@
       "updated_at": "2026-10-18T01:56:57Z",
       "author": "TechLuddite",
       "public": true,
-      "source_url": "https://api.github.com/repos/omacom/gliff/pulls/65"
+      "source_url": "https://api.github.com/repos/omacom/gliff/pulls/65",
+      "node_id": "PR_kwDOUYZXrs8AAAABIxXlVg"
     },
     {
       "number": 64,
@@ -210,7 +271,8 @@
       "updated_at": "2026-10-18T01:56:55Z",
       "author": "TechLuddite",
       "public": true,
-      "source_url": "https://api.github.com/repos/omacom/gliff/pulls/64"
+      "source_url": "https://api.github.com/repos/omacom/gliff/pulls/64",
+      "node_id": "PR_kwDOUYZXrs8AAAABIxUbCg"
     },
     {
       "number": 63,
@@ -224,7 +286,8 @@
       "updated_at": "2026-10-18T01:56:53Z",
       "author": "TechLuddite",
       "public": true,
-      "source_url": "https://api.github.com/repos/omacom/gliff/pulls/63"
+      "source_url": "https://api.github.com/repos/omacom/gliff/pulls/63",
+      "node_id": "PR_kwDOUYZXrs8AAAABIxUKyw"
     },
     {
       "number": 62,
@@ -238,7 +301,8 @@
       "updated_at": "2026-10-18T01:56:51Z",
       "author": "TechLuddite",
       "public": true,
-      "source_url": "https://api.github.com/repos/omacom/gliff/pulls/62"
+      "source_url": "https://api.github.com/repos/omacom/gliff/pulls/62",
+      "node_id": "PR_kwDOUYZXrs8AAAABIxG2_Q"
     },
     {
       "number": 61,
@@ -252,7 +316,8 @@
       "updated_at": "2026-10-18T01:56:50Z",
       "author": "TechLuddite",
       "public": true,
-      "source_url": "https://api.github.com/repos/omacom/gliff/pulls/61"
+      "source_url": "https://api.github.com/repos/omacom/gliff/pulls/61",
+      "node_id": "PR_kwDOUYZXrs8AAAABIxBVug"
     },
     {
       "number": 3514,
@@ -266,7 +331,8 @@
       "updated_at": "2026-10-16T10:16:19Z",
       "author": "TechLuddite",
       "public": true,
-      "source_url": "https://api.github.com/repos/ROCKNIX/distribution/pulls/3514"
+      "source_url": "https://api.github.com/repos/ROCKNIX/distribution/pulls/3514",
+      "node_id": "PR_kwDOLfZblc8AAAABI0e9jg"
     },
     {
       "number": 1,
@@ -280,7 +346,8 @@
       "updated_at": "2026-10-16T05:01:27Z",
       "author": "TechLuddite",
       "public": true,
-      "source_url": "https://api.github.com/repos/SimonSchubert/omarchy-mobile/pulls/1"
+      "source_url": "https://api.github.com/repos/SimonSchubert/omarchy-mobile/pulls/1",
+      "node_id": "PR_kwDOUT_ots8AAAABIxesqQ"
     },
     {
       "number": 11626,
@@ -294,7 +361,8 @@
       "updated_at": "2026-10-14T23:48:01Z",
       "author": "TechLuddite",
       "public": true,
-      "source_url": "https://api.github.com/repos/omacom/omarchy/pulls/11626"
+      "source_url": "https://api.github.com/repos/omacom/omarchy/pulls/11626",
+      "node_id": "PR_kwDOO0Cobs8AAAABDT5xwQ"
     },
     {
       "number": 45,
@@ -308,7 +376,8 @@
       "updated_at": "2026-10-14T23:43:08Z",
       "author": "TechLuddite",
       "public": true,
-      "source_url": "https://api.github.com/repos/omacom/gliff/pulls/45"
+      "source_url": "https://api.github.com/repos/omacom/gliff/pulls/45",
+      "node_id": "PR_kwDOUYZXrs8AAAABH8uAWQ"
     },
     {
       "number": 43,
@@ -322,7 +391,8 @@
       "updated_at": "2026-10-14T23:43:05Z",
       "author": "TechLuddite",
       "public": true,
-      "source_url": "https://api.github.com/repos/omacom/gliff/pulls/43"
+      "source_url": "https://api.github.com/repos/omacom/gliff/pulls/43",
+      "node_id": "PR_kwDOUYZXrs8AAAABH4WYNw"
     },
     {
       "number": 25,
@@ -336,7 +406,8 @@
       "updated_at": "2026-09-30T12:33:08Z",
       "author": "TechLuddite",
       "public": true,
-      "source_url": "https://api.github.com/repos/nixfred/infomarchy/pulls/25"
+      "source_url": "https://api.github.com/repos/nixfred/infomarchy/pulls/25",
+      "node_id": "PR_kwDOUASl488AAAABDD1VBQ"
     },
     {
       "number": 16,
@@ -350,7 +421,8 @@
       "updated_at": "2026-09-30T12:30:18Z",
       "author": "TechLuddite",
       "public": true,
-      "source_url": "https://api.github.com/repos/nixfred/infomarchy/pulls/16"
+      "source_url": "https://api.github.com/repos/nixfred/infomarchy/pulls/16",
+      "node_id": "PR_kwDOUASl488AAAABC5THsg"
     },
     {
       "number": 17,
@@ -364,7 +436,8 @@
       "updated_at": "2026-09-19T03:13:26Z",
       "author": "TechLuddite",
       "public": true,
-      "source_url": "https://api.github.com/repos/nixfred/infomarchy/pulls/17"
+      "source_url": "https://api.github.com/repos/nixfred/infomarchy/pulls/17",
+      "node_id": "PR_kwDOUASl488AAAABC5T31Q"
     },
     {
       "number": 19,
@@ -378,7 +451,8 @@
       "updated_at": "2026-09-19T02:42:25Z",
       "author": "TechLuddite",
       "public": true,
-      "source_url": "https://api.github.com/repos/nixfred/infomarchy/pulls/19"
+      "source_url": "https://api.github.com/repos/nixfred/infomarchy/pulls/19",
+      "node_id": "PR_kwDOUASl488AAAABC5U0eQ"
     },
     {
       "number": 7,
@@ -392,7 +466,8 @@
       "updated_at": "2026-09-13T07:27:51Z",
       "author": "TechLuddite",
       "public": true,
-      "source_url": "https://api.github.com/repos/dhh/omarchy-giants-theme/pulls/7"
+      "source_url": "https://api.github.com/repos/dhh/omarchy-giants-theme/pulls/7",
+      "node_id": "PR_kwDOT2WSu88AAAABDLJE6w"
     },
     {
       "number": 21,
@@ -406,7 +481,8 @@
       "updated_at": "2026-09-13T07:15:40Z",
       "author": "TechLuddite",
       "public": true,
-      "source_url": "https://api.github.com/repos/nixfred/infomarchy/pulls/21"
+      "source_url": "https://api.github.com/repos/nixfred/infomarchy/pulls/21",
+      "node_id": "PR_kwDOUASl488AAAABC5VvDQ"
     },
     {
       "number": 22,
@@ -420,7 +496,8 @@
       "updated_at": "2026-09-11T03:28:29Z",
       "author": "TechLuddite",
       "public": true,
-      "source_url": "https://api.github.com/repos/nixfred/infomarchy/pulls/22"
+      "source_url": "https://api.github.com/repos/nixfred/infomarchy/pulls/22",
+      "node_id": "PR_kwDOUASl488AAAABC5V_TA"
     },
     {
       "number": 20,
@@ -434,7 +511,8 @@
       "updated_at": "2026-09-11T03:28:28Z",
       "author": "TechLuddite",
       "public": true,
-      "source_url": "https://api.github.com/repos/nixfred/infomarchy/pulls/20"
+      "source_url": "https://api.github.com/repos/nixfred/infomarchy/pulls/20",
+      "node_id": "PR_kwDOUASl488AAAABC5VS5w"
     },
     {
       "number": 15,
@@ -448,7 +526,8 @@
       "updated_at": "2026-09-11T03:28:14Z",
       "author": "TechLuddite",
       "public": true,
-      "source_url": "https://api.github.com/repos/nixfred/infomarchy/pulls/15"
+      "source_url": "https://api.github.com/repos/nixfred/infomarchy/pulls/15",
+      "node_id": "PR_kwDOUASl488AAAABC5RvWA"
     },
     {
       "number": 14,
@@ -462,7 +541,8 @@
       "updated_at": "2026-09-11T03:27:59Z",
       "author": "TechLuddite",
       "public": true,
-      "source_url": "https://api.github.com/repos/nixfred/infomarchy/pulls/14"
+      "source_url": "https://api.github.com/repos/nixfred/infomarchy/pulls/14",
+      "node_id": "PR_kwDOUASl488AAAABC5RQ8A"
     },
     {
       "number": 18,
@@ -476,7 +556,8 @@
       "updated_at": "2026-09-11T03:28:28Z",
       "author": "TechLuddite",
       "public": true,
-      "source_url": "https://api.github.com/repos/nixfred/infomarchy/pulls/18"
+      "source_url": "https://api.github.com/repos/nixfred/infomarchy/pulls/18",
+      "node_id": "PR_kwDOUASl488AAAABC5UQMg"
     }
   ]
 }

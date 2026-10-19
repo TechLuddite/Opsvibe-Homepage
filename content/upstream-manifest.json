@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "version": "opsvibe-upstream-2026-10-19-v1",
+  "authority": "Operator-requested Upstream-only refresh. Baseline content/manifest.json remains authoritative for every non-Upstream section. This manifest plus upstream.json is authoritative for Upstream in this proposal.",
+  "entrypoint": "upstream.json",
+  "sha256": {
+    "upstream.json": "8e81567498591305158a419ce9523dfe89313f11ba37c27b7ce8a9984d2da907"
+  },
+  "baseline": {
+    "version": "opsvibe-content-2026-10-18-v1",
+    "homepage_sha256": "e9fefd7bf32f9cae65f53af75dbc02a8a00361f56427daafc59e5b78cd615db3",
+    "manifest_sha256": "743ae44ac7e8a549d624f13878675e15987a8f84a6547611c8682c76da03444b",
+    "as_of": "2026-10-18T10:01:16.778449+00:00"
+  },
+  "snapshot": {
+    "capture_started_at": "2026-10-19T18:34:21.904716+00:00",
+    "as_of": "2026-10-19T18:34:48.040029+00:00",
+    "live": false,
+    "query": "is:pr author:TechLuddite is:public",
+    "search_pages": 3,
+    "search_total": 233,
+    "search_collected": 233,
+    "incomplete_results": false,
+    "upstream_prs": 37,
+    "states": {
+      "open": 13,
+      "merged": 21,
+      "closed-unmerged": 3
+    },
+    "drafts": 7,
+    "individually_verified": 37,
+    "missing_prior_rechecked": 0,
+    "no_longer_publicly_verifiable": 0,
+    "scope": "Public authored PRs to targets not owned by TechLuddite. Target repositories checked public before individual PR detail. Deduplicated by immutable PR node ID and canonical URL. All discovered verified records retained, without per-repository cap. Prior public URLs missing from search rechecked.",
+    "limitations": "GitHub search may lag, change during pagination and is capped at 1,000 results. This capture is a bounded public snapshot, not all historical contributions or live activity. Open PRs are proposals, not shipped work."
+  },
+  "changes_from_baseline": {
+    "new_urls": [
+      "https://github.com/perminder-klair/omarchy-controller-control/pull/14",
+      "https://github.com/perminder-klair/omarchy-controller-control/pull/13",
+      "https://github.com/perminder-klair/omarchy-controller-control/pull/12"
+    ],
+    "no_longer_publicly_verifiable_count": 0,
+    "state_changes": [
+      {
+        "url": "https://github.com/perminder-klair/omarchy-controller-control/pull/11",
+        "before": "open",
+        "after": "merged"
+      },
+      {
+        "url": "https://github.com/perminder-klair/omarchy-controller-control/pull/10",
+        "before": "open",
+        "after": "merged"
+      },
+      {
+        "url": "https://github.com/perminder-klair/omarchy-controller-control/pull/9",
+        "before": "open",
+        "after": "merged"
+      },
+      {
+        "url": "https://github.com/perminder-klair/omarchy-controller-control/pull/8",
+        "before": "open",
+        "after": "merged"
+      },
+      {
+        "url": "https://github.com/perminder-klair/omarchy-controller-control/pull/7",
+        "before": "open",
+        "after": "merged"
+      },
+      {
+        "url": "https://github.com/perminder-klair/omarchy-controller-control/pull/6",
+        "before": "open",
+        "after": "merged"
+      },
+      {
+        "url": "https://github.com/perminder-klair/omarchy-controller-control/pull/5",
+        "before": "open",
+        "after": "merged"
+      },
+      {
+        "url": "https://github.com/perminder-klair/omarchy-controller-control/pull/4",
+        "before": "open",
+        "after": "merged"
+      }
+    ],
+    "draft_changes": [
+      {
+        "url": "https://github.com/perminder-klair/omarchy-controller-control/pull/5",
+        "before": true,
+        "after": false
+      }
+    ],
+    "redirected_urls": {}
+  },
+  "public_writes_performed": false
+}
