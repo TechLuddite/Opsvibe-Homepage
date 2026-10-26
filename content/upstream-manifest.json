@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "opsvibe-upstream-2026-10-26-2026-10-25-02-27308b9ed9b94ca584048700102930f2",
-  "run_id": "2026-10-25-02-27308b9ed9b94ca584048700102930f2",
-  "generation_started_at": "2026-10-26T02:46:02.843033+00:00",
-  "capture_started_at": "2026-10-26T02:46:02.843033+00:00",
-  "as_of": "2026-10-26T02:46:23.725710+00:00",
+  "version": "opsvibe-upstream-2026-10-26-2026-10-26-01-63adbff848f843fc950b47ce146b0009",
+  "run_id": "2026-10-26-01-63adbff848f843fc950b47ce146b0009",
+  "generation_started_at": "2026-10-26T10:07:06.523186+00:00",
+  "capture_started_at": "2026-10-26T10:07:06.523186+00:00",
+  "as_of": "2026-10-26T10:07:30.797605+00:00",
   "status": "complete",
   "sha256": {
-    "upstream.json": "bb5fca8042aa1da2479e012493ca5c9612a072928cf55435449bd8c20e2ef3e1"
+    "upstream.json": "db0a389c782c753fda03753b65abb5d397ecf50a8fd3f78b60308bafa96bf373"
   },
   "frozen_sha256": {
     "homepage.json": "e9fefd7bf32f9cae65f53af75dbc02a8a00361f56427daafc59e5b78cd615db3",
@@ -16,13 +16,13 @@
     "manifest.json": "743ae44ac7e8a549d624f13878675e15987a8f84a6547611c8682c76da03444b"
   },
   "coverage": {
-    "capture_started_at": "2026-10-26T02:46:02.843033+00:00",
-    "as_of": "2026-10-26T02:46:23.725710+00:00",
+    "capture_started_at": "2026-10-26T10:07:06.523186+00:00",
+    "as_of": "2026-10-26T10:07:30.797605+00:00",
     "live": false,
     "query": "is:pr author:TechLuddite is:public",
     "search_pages": 3,
-    "search_total": 234,
-    "search_collected": 234,
+    "search_total": 235,
+    "search_collected": 235,
     "incomplete_results": false,
     "upstream_prs": 37,
     "states": {

@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "version": "opsvibe-upstream-2026-10-26-2026-10-25-02-27308b9ed9b94ca584048700102930f2",
-  "run_id": "2026-10-25-02-27308b9ed9b94ca584048700102930f2",
+  "version": "opsvibe-upstream-2026-10-26-2026-10-26-01-63adbff848f843fc950b47ce146b0009",
+  "run_id": "2026-10-26-01-63adbff848f843fc950b47ce146b0009",
   "snapshot": {
-    "capture_started_at": "2026-10-26T02:46:02.843033+00:00",
-    "as_of": "2026-10-26T02:46:23.725710+00:00",
+    "capture_started_at": "2026-10-26T10:07:06.523186+00:00",
+    "as_of": "2026-10-26T10:07:30.797605+00:00",
     "live": false,
     "query": "is:pr author:TechLuddite is:public",
     "search_pages": 3,
-    "search_total": 234,
-    "search_collected": 234,
+    "search_total": 235,
+    "search_collected": 235,
     "incomplete_results": false,
     "upstream_prs": 37,
     "states": {

@@ -1,48 +1,24 @@
-'use strict';
-(() => {
- const form = document.querySelector('#filters');
- const query = document.querySelector('#query');
- const language = document.querySelector('#language');
- const state = document.querySelector('#state');
- const rows = [...document.querySelectorAll('[data-kind]')];
- const chapters = [...document.querySelectorAll('.chapter')];
- const groups = [...document.querySelectorAll('.chapter,.target-group,.state-group')];
- function update() {
-  const q = query.value.trim().toLowerCase();
-  let projects = 0, prs = 0;
-  for (const row of rows) {
-   const project = row.dataset.kind === 'project';
-   const scope = project ? !language.value || row.dataset.language === language.value : !state.value || row.dataset.state === state.value;
-   row.hidden = !(scope && row.dataset.search.includes(q));
-   if (!row.hidden) { if (project) projects++; else prs++; }
-  }
-  for (const group of groups) group.hidden = ![...group.querySelectorAll('[data-kind]')].some(row => !row.hidden);
-  for (const chapter of chapters) if (!chapter.hidden) chapter.open = true;
-  document.querySelector('#results').textContent = `${projects} ${projects === 1 ? 'project' : 'projects'} / ${prs} upstream`;
-  document.querySelector('#project-empty').hidden = projects !== 0;
-  document.querySelector('#pr-empty').hidden = prs !== 0;
- }
- form.addEventListener('submit', event => event.preventDefault());
- query.addEventListener('input', update);
- language.addEventListener('change', update);
- state.addEventListener('change', update);
- form.addEventListener('reset', event => {
-  event.preventDefault(); query.value = ''; language.value = ''; state.value = ''; update();
+"use strict";
+const data = [{"url": "https://github.com/TechLuddite/ai-plays-as-ai-making-paperclips", "language": "Python", "text": "ai-plays-as-ai-making-paperclips techluddite/ai-plays-as-ai-making-paperclips a local llm agent (ollama + react) playing universal paperclips via dom automation \u2014 no api required python"}, {"url": "https://github.com/TechLuddite/ascii-save", "language": "Python", "text": "ascii-save techluddite/ascii-save ascii and braille screensaver workshop for omarchy, seeded with the complete giants collection python"}, {"url": "https://github.com/TechLuddite/gpg", "language": "JavaScript", "text": "gpg techluddite/gpg grace\u2019s playground: seven small browser games built with html, css and javascript, with no build step. javascript"}, {"url": "https://github.com/TechLuddite/Happening", "language": "GDScript", "text": "happening techluddite/happening road to vostok mod that triggers an event on shelter exits and zone travel, with on-screen announcements. gdscript"}, {"url": "https://github.com/TechLuddite/hopper-day", "language": "HTML", "text": "hopper-day techluddite/hopper-day an open-source august 14 celebration of making things by talking to computers, inspired by grace hopper. html"}, {"url": "https://github.com/TechLuddite/jbl", "language": "JavaScript", "text": "jbl techluddite/jbl joseph\u2019s battle lab: a pok\u00e9mon damage calculator, battle simulator, pok\u00e9dex, stat explorer and family league tracker. javascript"}, {"url": "https://github.com/TechLuddite/Jeans-Instability", "language": "Python", "text": "jeans-instability techluddite/jeans-instability omarchy bar widget: the github repositories of your enabled plugins you have not starred, with a star button for each. python"}, {"url": "https://github.com/TechLuddite/kitty-come-home", "language": "HTML", "text": "kitty-come-home techluddite/kitty-come-home a field search protocol for escaped indoor cats, with plans for search coordination and camera triage. html"}, {"url": "https://github.com/TechLuddite/Luddite-Decisions-GPT2-XL", "language": "Python", "text": "luddite-decisions-gpt2-xl techluddite/luddite-decisions-gpt2-xl one-pass decision model built on gpt-2 xl that scores multiple-choice options without generating text. python"}, {"url": "https://github.com/TechLuddite/Luddite-Decisions-Phi-4-mini", "language": "Python", "text": "luddite-decisions-phi-4-mini techluddite/luddite-decisions-phi-4-mini one-pass decision model built on phi-4-mini-instruct that scores multiple-choice options without generating text. python"}, {"url": "https://github.com/TechLuddite/luddite-gestures", "language": "JavaScript", "text": "luddite-gestures techluddite/luddite-gestures a panel for editing hyprland touchpad gestures on omarchy, and for telling you which of your swipes will never fire. javascript"}, {"url": "https://github.com/TechLuddite/luddite-pxe-dust", "language": "Python", "text": "luddite-pxe-dust techluddite/luddite-pxe-dust experimental omarchy plugin for serving an interactive installer over pxe to wired uefi x86-64 machines, with ethernet or wi-fi hosting. python"}, {"url": "https://github.com/TechLuddite/Luddite-Scout", "language": "Python", "text": "luddite-scout techluddite/luddite-scout pre-flight safety check for untrusted github repos, before you let an agent near them. python"}, {"url": "https://github.com/TechLuddite/Memory-Wall", "language": "JavaScript", "text": "memory-wall techluddite/memory-wall an open, sourced index of npu and accelerator, dram, and storage research, standards, history and economics. javascript"}, {"url": "https://github.com/TechLuddite/NetReady", "language": "TypeScript", "text": "netready techluddite/netready browser-based network diagnostics with measured results, clear failure reasons, and rule-based troubleshooting. typescript"}, {"url": "https://github.com/TechLuddite/NeverDrop", "language": "GDScript", "text": "neverdrop techluddite/neverdrop road to vostok mod that prevents collision drops of held items and recovers loose items knocked outside shelters. gdscript"}, {"url": "https://github.com/TechLuddite/omarchy-fleet", "language": "Shell", "text": "omarchy-fleet techluddite/omarchy-fleet omarchy linux distribution, with a manual covering applications and configuration. shell"}, {"url": "https://github.com/TechLuddite/omarchy-fleet-iso", "language": "Shell", "text": "omarchy-fleet-iso techluddite/omarchy-fleet-iso omarchy iso build and installer sources, including documented checksum verification and autoinstall configuration. shell"}, {"url": "https://github.com/TechLuddite/omarchy-fleet-pkgs", "language": "Shell", "text": "omarchy-fleet-pkgs techluddite/omarchy-fleet-pkgs build system for the omarchy package repository. builds pkgbuilds from local sources and aur, signs them, and syncs to production. shell"}, {"url": "https://github.com/TechLuddite/omarchy-mobile-odin2", "language": "Python", "text": "omarchy-mobile-odin2 techluddite/omarchy-mobile-odin2 native omarchy bring-up for ayn odin 2 portal, with touch controls and documented hardware verification python"}, {"url": "https://github.com/TechLuddite/opinionated-omarchy", "language": "Python", "text": "opinionated-omarchy techluddite/opinionated-omarchy an omarchy troubleshooting corpus and public research site supporting an agent skill still under development. python"}, {"url": "https://github.com/TechLuddite/Opsvibe-Homepage", "language": "CSS", "text": "opsvibe-homepage techluddite/opsvibe-homepage techluddite\u2019s static developer homepage with public project listings, search and filters. css"}, {"url": "https://github.com/TechLuddite/SeeFix", "language": "Python", "text": "seefix techluddite/seefix visually verified fixes with reusable code, assets and methods, including stream deck plus and streamcontroller repairs. python"}, {"url": "https://github.com/TechLuddite/Universal-AI", "language": "TypeScript", "text": "universal-ai techluddite/universal-ai an optimization idle game with an autonomous overseer, alongside an independent godot prototype called the seed. typescript"}];
+const form = document.querySelector('#filters');
+const query = document.querySelector('#query');
+const language = document.querySelector('#language');
+const records = Array.from(document.querySelectorAll('[data-kind="project"]'));
+function update() {
+ const needle = query.value.toLowerCase();
+ let count = 0;
+ records.forEach((row, index) => {
+  const item = data[index];
+  const matchLanguage = !language.value || (language.value === '__null__' ? item.language === null : item.language === language.value);
+  row.hidden = !(matchLanguage && item.text.includes(needle));
+  if (!row.hidden) count++;
  });
- let printState = null;
- let printFocus = null;
- window.addEventListener('beforeprint', () => {
-  if (printState) return;
-  printFocus = document.activeElement;
-  printState = [...document.querySelectorAll('details')].map(element => [element, element.open]);
-  for (const [element] of printState) element.open = true;
- });
- window.addEventListener('afterprint', () => {
-  if (!printState) return;
-  for (const [element, open] of printState) element.open = open;
-  printState = null;
-  if (printFocus && printFocus.isConnected) printFocus.focus({preventScroll: true});
-  printFocus = null;
- });
- form.hidden = false;
-})();
+ document.querySelector('#results').textContent = `${count} of ${data.length} projects`;
+ document.querySelector('#empty').hidden = count !== 0;
+}
+form.addEventListener('submit', event => event.preventDefault());
+form.addEventListener('input', update);
+form.addEventListener('change', update);
+form.addEventListener('reset', () => { query.value = ''; language.value = ''; update(); });
+form.hidden = false;
+update();
