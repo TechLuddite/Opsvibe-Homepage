@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "opsvibe-upstream-2026-10-26-2026-10-26-01-63adbff848f843fc950b47ce146b0009",
-  "run_id": "2026-10-26-01-63adbff848f843fc950b47ce146b0009",
-  "generation_started_at": "2026-10-26T10:07:06.523186+00:00",
-  "capture_started_at": "2026-10-26T10:07:06.523186+00:00",
-  "as_of": "2026-10-26T10:07:30.797605+00:00",
+  "version": "opsvibe-upstream-2026-11-01-2026-11-01-01-812ff9dec7b248a9b4ff84cc12488ffb",
+  "run_id": "2026-11-01-01-812ff9dec7b248a9b4ff84cc12488ffb",
+  "generation_started_at": "2026-11-01T08:11:14.931287+00:00",
+  "capture_started_at": "2026-11-01T08:11:14.931287+00:00",
+  "as_of": "2026-11-01T08:11:39.066329+00:00",
   "status": "complete",
   "sha256": {
-    "upstream.json": "db0a389c782c753fda03753b65abb5d397ecf50a8fd3f78b60308bafa96bf373"
+    "upstream.json": "d59f6713701419ab6099192e6d0cab08bd7015f4eb245cf57acd36b34cd3d761"
   },
   "frozen_sha256": {
     "homepage.json": "e9fefd7bf32f9cae65f53af75dbc02a8a00361f56427daafc59e5b78cd615db3",
@@ -16,26 +16,26 @@
     "manifest.json": "743ae44ac7e8a549d624f13878675e15987a8f84a6547611c8682c76da03444b"
   },
   "coverage": {
-    "capture_started_at": "2026-10-26T10:07:06.523186+00:00",
-    "as_of": "2026-10-26T10:07:30.797605+00:00",
+    "capture_started_at": "2026-11-01T08:11:14.931287+00:00",
+    "as_of": "2026-11-01T08:11:39.066329+00:00",
     "live": false,
     "query": "is:pr author:TechLuddite is:public",
     "search_pages": 3,
-    "search_total": 235,
-    "search_collected": 235,
+    "search_total": 240,
+    "search_collected": 240,
     "incomplete_results": false,
-    "upstream_prs": 37,
+    "upstream_prs": 42,
     "states": {
-      "open": 3,
-      "merged": 31,
+      "merged": 35,
+      "open": 4,
       "closed-unmerged": 3
     },
     "drafts": 8,
-    "individually_verified": 37,
-    "request_count": 47,
+    "individually_verified": 42,
+    "request_count": 54,
     "missing_prior_rechecked": 0,
     "expected_prior_urls": 37,
-    "candidate_urls": 37,
+    "candidate_urls": 42,
     "no_longer_publicly_verifiable": 0,
     "exclusion_reasons": {},
     "scope": "Public authored PRs to targets not owned by TechLuddite. Every record freshly checked after a public-target gate. All discovered verified records included. Historical URLs are rechecked, never reused as record bodies. Merged work grouped by target project. Open proposals and closed-unmerged work kept separate.",
