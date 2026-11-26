@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-26T22:31:57.366400+00:00",
+  "forks": [
+    {
+      "fork": "TechLuddite/coderev",
+      "fork_url": "https://github.com/TechLuddite/coderev",
+      "parent": "btsouth/coderev",
+      "parent_url": "https://github.com/btsouth/coderev",
+      "source": "btsouth/coderev"
+    },
+    {
+      "fork": "TechLuddite/distribution",
+      "fork_url": "https://github.com/TechLuddite/distribution",
+      "parent": "ROCKNIX/distribution",
+      "parent_url": "https://github.com/ROCKNIX/distribution",
+      "source": "ROCKNIX/distribution"
+    },
+    {
+      "fork": "TechLuddite/gliff",
+      "fork_url": "https://github.com/TechLuddite/gliff",
+      "parent": "omacom/gliff",
+      "parent_url": "https://github.com/omacom/gliff",
+      "source": "omacom/gliff"
+    },
+    {
+      "fork": "TechLuddite/infomarchy",
+      "fork_url": "https://github.com/TechLuddite/infomarchy",
+      "parent": "nixfred/infomarchy",
+      "parent_url": "https://github.com/nixfred/infomarchy",
+      "source": "nixfred/infomarchy"
+    },
+    {
+      "fork": "TechLuddite/linux",
+      "fork_url": "https://github.com/TechLuddite/linux",
+      "parent": "torvalds/linux",
+      "parent_url": "https://github.com/torvalds/linux",
+      "source": "torvalds/linux"
+    },
+    {
+      "fork": "TechLuddite/moarchy-keyboard",
+      "fork_url": "https://github.com/TechLuddite/moarchy-keyboard",
+      "parent": "SimonSchubert/moarchy-keyboard",
+      "parent_url": "https://github.com/SimonSchubert/moarchy-keyboard",
+      "source": "SimonSchubert/moarchy-keyboard"
+    },
+    {
+      "fork": "TechLuddite/omarchy",
+      "fork_url": "https://github.com/TechLuddite/omarchy",
+      "parent": "omacom/omarchy",
+      "parent_url": "https://github.com/omacom/omarchy",
+      "source": "omacom/omarchy"
+    },
+    {
+      "fork": "TechLuddite/omarchy-emacs",
+      "fork_url": "https://github.com/TechLuddite/omarchy-emacs",
+      "parent": "scottjones/omarchy-emacs",
+      "parent_url": "https://github.com/scottjones/omarchy-emacs",
+      "source": "scottjones/omarchy-emacs"
+    },
+    {
+      "fork": "TechLuddite/omarchy-gamepad-mapping",
+      "fork_url": "https://github.com/TechLuddite/omarchy-gamepad-mapping",
+      "parent": "perminder-klair/omarchy-controller-control",
+      "parent_url": "https://github.com/perminder-klair/omarchy-controller-control",
+      "source": "perminder-klair/omarchy-controller-control"
+    },
+    {
+      "fork": "TechLuddite/omarchy-mobile",
+      "fork_url": "https://github.com/TechLuddite/omarchy-mobile",
+      "parent": "SimonSchubert/omarchy-mobile",
+      "parent_url": "https://github.com/SimonSchubert/omarchy-mobile",
+      "source": "SimonSchubert/omarchy-mobile"
+    },
+    {
+      "fork": "TechLuddite/omarchy-outbound",
+      "fork_url": "https://github.com/TechLuddite/omarchy-outbound",
+      "parent": "simoz/omarchy-outbound",
+      "parent_url": "https://github.com/simoz/omarchy-outbound",
+      "source": "simoz/omarchy-outbound"
+    },
+    {
+      "fork": "TechLuddite/omarchy-pkgs",
+      "fork_url": "https://github.com/TechLuddite/omarchy-pkgs",
+      "parent": "omacom/omarchy-pkgs",
+      "parent_url": "https://github.com/omacom/omarchy-pkgs",
+      "source": "omacom/omarchy-pkgs"
+    },
+    {
+      "fork": "TechLuddite/sigkill",
+      "fork_url": "https://github.com/TechLuddite/sigkill",
+      "parent": "nixfred/sigkill",
+      "parent_url": "https://github.com/nixfred/sigkill",
+      "source": "nixfred/sigkill"
+    },
+    {
+      "fork": "TechLuddite/toolport",
+      "fork_url": "https://github.com/TechLuddite/toolport",
+      "parent": "btsouth/toolport",
+      "parent_url": "https://github.com/btsouth/toolport",
+      "source": "btsouth/toolport"
+    }
+  ]
+}
