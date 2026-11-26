@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "version": "opsvibe-content-2026-10-18-v1",
+  "version": "opsvibe-content-2026-11-26-v1",
   "snapshot": {
-    "as_of": "2026-10-18T10:01:16.778449+00:00",
-    "frozen_at": "2026-10-18T10:22:25.318072+00:00",
+    "as_of": "2026-11-26T22:31:57.366400+00:00",
+    "frozen_at": "2026-11-26T22:31:57.366400+00:00",
     "live": false,
-    "network_refresh_performed": false
+    "network_refresh_performed": true
   },
   "identity": {
     "handle": "TechLuddite",
@@ -14,26 +14,12 @@
   },
   "copy": {
     "attribution_note": "Account ownership and non-fork status do not establish original authorship or exclusive ownership of code. Credit and license terms remain with the respective authors and projects.",
-    "projects_intro": "Public repositories owned by the TechLuddite account, excluding forks. Choose a repository to inspect its description, ownership and source links. Archived projects remain visible.",
+    "projects_intro": "Public repositories owned by the TechLuddite account, excluding forks and mirrors of other projects. Choose a repository to inspect its description, ownership and source links. Archived projects remain visible.",
     "upstream_intro": "All discovered public authored pull requests to other owners in this frozen snapshot. Every entry was checked on its source repository. Proposal state and acceptance are kept separate.",
     "snapshot_note": "Frozen as-of snapshot. Source links and states reflect the captured evidence, not live activity.",
     "notes_notice": "Operator-directed content baseline, frozen as of the source snapshot. Biography and acknowledgments are retained from the original homepage, with Twitch and scope corrections. They are not independently reverified portfolio-wide claims."
   },
   "projects": [
-    {
-      "name": "NetReady",
-      "full_name": "TechLuddite/NetReady",
-      "description": "Browser-based network diagnostics with measured results, clear failure reasons, and rule-based troubleshooting.",
-      "language": "TypeScript",
-      "archived": false,
-      "fork": false,
-      "html_url": "https://github.com/TechLuddite/NetReady",
-      "homepage": "https://techluddite.github.io/NetReady/",
-      "pushed_at": "2026-10-11T06:45:31Z",
-      "owner": "TechLuddite",
-      "public": true,
-      "source_url": "https://api.github.com/repos/TechLuddite/NetReady"
-    },
     {
       "name": "ai-plays-as-ai-making-paperclips",
       "full_name": "TechLuddite/ai-plays-as-ai-making-paperclips",
@@ -85,7 +71,7 @@
       "fork": false,
       "html_url": "https://github.com/TechLuddite/Happening",
       "homepage": null,
-      "pushed_at": "2026-10-11T08:56:28Z",
+      "pushed_at": "2026-10-31T20:31:39Z",
       "owner": "TechLuddite",
       "public": true,
       "source_url": "https://api.github.com/repos/TechLuddite/Happening"
@@ -197,7 +183,7 @@
       "fork": false,
       "html_url": "https://github.com/TechLuddite/luddite-pxe-dust",
       "homepage": null,
-      "pushed_at": "2026-10-18T09:27:18Z",
+      "pushed_at": "2026-10-26T07:30:05Z",
       "owner": "TechLuddite",
       "public": true,
       "source_url": "https://api.github.com/repos/TechLuddite/luddite-pxe-dust"
@@ -211,10 +197,52 @@
       "fork": false,
       "html_url": "https://github.com/TechLuddite/Luddite-Scout",
       "homepage": "https://techluddite.github.io/Luddite-Scout/",
-      "pushed_at": "2026-10-18T09:20:44Z",
+      "pushed_at": "2026-11-02T02:54:02Z",
       "owner": "TechLuddite",
       "public": true,
       "source_url": "https://api.github.com/repos/TechLuddite/Luddite-Scout"
+    },
+    {
+      "name": "luddite-scout-action",
+      "full_name": "TechLuddite/luddite-scout-action",
+      "description": "Luddite Scout's static pre-flight checks as a GitHub and Gitea Action. Runs nothing from the repository.",
+      "language": "Python",
+      "archived": false,
+      "fork": false,
+      "html_url": "https://github.com/TechLuddite/luddite-scout-action",
+      "homepage": null,
+      "pushed_at": "2026-11-02T03:04:26Z",
+      "owner": "TechLuddite",
+      "public": true,
+      "source_url": "https://api.github.com/repos/TechLuddite/luddite-scout-action"
+    },
+    {
+      "name": "luddite-scout-skill",
+      "full_name": "TechLuddite/luddite-scout-skill",
+      "description": "Agent skill for Claude Code that runs Luddite Scout on a GitHub repository without showing the agent any repository text",
+      "language": "Shell",
+      "archived": false,
+      "fork": false,
+      "html_url": "https://github.com/TechLuddite/luddite-scout-skill",
+      "homepage": null,
+      "pushed_at": "2026-11-02T04:45:36Z",
+      "owner": "TechLuddite",
+      "public": true,
+      "source_url": "https://api.github.com/repos/TechLuddite/luddite-scout-skill"
+    },
+    {
+      "name": "luddite-voice-osd",
+      "full_name": "TechLuddite/luddite-voice-osd",
+      "description": "Compact, theme-aware recording and transcription OSD for local Voxtype dictation on Omarchy.",
+      "language": "Python",
+      "archived": false,
+      "fork": false,
+      "html_url": "https://github.com/TechLuddite/luddite-voice-osd",
+      "homepage": null,
+      "pushed_at": "2026-10-19T20:17:00Z",
+      "owner": "TechLuddite",
+      "public": true,
+      "source_url": "https://api.github.com/repos/TechLuddite/luddite-voice-osd"
     },
     {
       "name": "Memory-Wall",
@@ -231,6 +259,20 @@
       "source_url": "https://api.github.com/repos/TechLuddite/Memory-Wall"
     },
     {
+      "name": "NetReady",
+      "full_name": "TechLuddite/NetReady",
+      "description": "Browser-based network diagnostics with measured results, clear failure reasons, and rule-based troubleshooting.",
+      "language": "TypeScript",
+      "archived": false,
+      "fork": false,
+      "html_url": "https://github.com/TechLuddite/NetReady",
+      "homepage": "https://techluddite.github.io/NetReady/",
+      "pushed_at": "2026-10-11T06:45:31Z",
+      "owner": "TechLuddite",
+      "public": true,
+      "source_url": "https://api.github.com/repos/TechLuddite/NetReady"
+    },
+    {
       "name": "NeverDrop",
       "full_name": "TechLuddite/NeverDrop",
       "description": "Road to Vostok mod that prevents collision drops of held items and recovers loose items knocked outside shelters.",
@@ -238,67 +280,25 @@
       "archived": false,
       "fork": false,
       "html_url": "https://github.com/TechLuddite/NeverDrop",
-      "homepage": "",
-      "pushed_at": "2026-10-11T20:13:33Z",
+      "homepage": null,
+      "pushed_at": "2026-10-31T20:31:41Z",
       "owner": "TechLuddite",
       "public": true,
       "source_url": "https://api.github.com/repos/TechLuddite/NeverDrop"
     },
     {
-      "name": "omarchy-fleet",
-      "full_name": "TechLuddite/omarchy-fleet",
-      "description": "Omarchy Linux distribution, with a manual covering applications and configuration.",
-      "language": "Shell",
-      "archived": false,
-      "fork": false,
-      "html_url": "https://github.com/TechLuddite/omarchy-fleet",
-      "homepage": "https://omarchy.org",
-      "pushed_at": "2026-09-16T17:59:51Z",
-      "owner": "TechLuddite",
-      "public": true,
-      "source_url": "https://api.github.com/repos/TechLuddite/omarchy-fleet"
-    },
-    {
-      "name": "omarchy-fleet-iso",
-      "full_name": "TechLuddite/omarchy-fleet-iso",
-      "description": "Omarchy ISO build and installer sources, including documented checksum verification and autoinstall configuration.",
-      "language": "Shell",
-      "archived": false,
-      "fork": false,
-      "html_url": "https://github.com/TechLuddite/omarchy-fleet-iso",
-      "homepage": null,
-      "pushed_at": "2026-09-16T18:13:53Z",
-      "owner": "TechLuddite",
-      "public": true,
-      "source_url": "https://api.github.com/repos/TechLuddite/omarchy-fleet-iso"
-    },
-    {
-      "name": "omarchy-fleet-pkgs",
-      "full_name": "TechLuddite/omarchy-fleet-pkgs",
-      "description": "Build system for the Omarchy Package Repository. Builds PKGBUILDs from local sources and AUR, signs them, and syncs to production.",
-      "language": "Shell",
-      "archived": false,
-      "fork": false,
-      "html_url": "https://github.com/TechLuddite/omarchy-fleet-pkgs",
-      "homepage": null,
-      "pushed_at": "2026-09-16T02:59:58Z",
-      "owner": "TechLuddite",
-      "public": true,
-      "source_url": "https://api.github.com/repos/TechLuddite/omarchy-fleet-pkgs"
-    },
-    {
-      "name": "omarchy-mobile-odin2",
-      "full_name": "TechLuddite/omarchy-mobile-odin2",
-      "description": "Native Omarchy bring-up for AYN Odin 2 Portal, with touch controls and documented hardware verification",
+      "name": "odin2-portal-hardware",
+      "full_name": "TechLuddite/odin2-portal-hardware",
+      "description": "Omarchy plugin for the AYN Odin 2 Portal: hardware monitoring, fan and power controls, and joystick RGB rings.",
       "language": "Python",
       "archived": false,
       "fork": false,
-      "html_url": "https://github.com/TechLuddite/omarchy-mobile-odin2",
+      "html_url": "https://github.com/TechLuddite/odin2-portal-hardware",
       "homepage": null,
-      "pushed_at": "2026-10-13T18:36:19Z",
+      "pushed_at": "2026-11-08T00:02:13Z",
       "owner": "TechLuddite",
       "public": true,
-      "source_url": "https://api.github.com/repos/TechLuddite/omarchy-mobile-odin2"
+      "source_url": "https://api.github.com/repos/TechLuddite/odin2-portal-hardware"
     },
     {
       "name": "opinionated-omarchy",
@@ -309,7 +309,7 @@
       "fork": false,
       "html_url": "https://github.com/TechLuddite/opinionated-omarchy",
       "homepage": "https://techluddite.github.io/opinionated-omarchy/",
-      "pushed_at": "2026-10-06T00:32:39Z",
+      "pushed_at": "2026-11-26T21:24:30Z",
       "owner": "TechLuddite",
       "public": true,
       "source_url": "https://api.github.com/repos/TechLuddite/opinionated-omarchy"
@@ -318,12 +318,12 @@
       "name": "Opsvibe-Homepage",
       "full_name": "TechLuddite/Opsvibe-Homepage",
       "description": "TechLuddite’s static developer homepage with public project listings, search and filters.",
-      "language": "CSS",
+      "language": "HTML",
       "archived": false,
       "fork": false,
       "html_url": "https://github.com/TechLuddite/Opsvibe-Homepage",
       "homepage": "https://opsvibe.systems/",
-      "pushed_at": "2026-09-22T06:56:39Z",
+      "pushed_at": "2026-11-07T21:23:22Z",
       "owner": "TechLuddite",
       "public": true,
       "source_url": "https://api.github.com/repos/TechLuddite/Opsvibe-Homepage"
@@ -843,7 +843,7 @@
     "search_total": 224,
     "search_collected": 224,
     "incomplete_results": false,
-    "public_owned_repos": 30,
+    "public_owned_repos": 42,
     "deduplicated_upstream_prs": 34,
     "states": {
       "open": 19,
@@ -881,9 +881,15 @@
     }
   ],
   "operator_direction": {
-    "source": "User content revision instruction in local operator session, 2026-10-18",
-    "scope": "Exclude forks, preserve authorship disclaimer, all discovered upstream PRs, gaming-only Twitch with follows and ongoing charity.",
+    "source": "Owner instruction in a local operator session, 2026-11-26",
+    "scope": "Refresh the project list. Drop every fork from the main section, including repositories that are forks or mirrors in practice. Reference forks in the Upstream section, with their parent, where pull requests exist. All other copy and sections unchanged.",
     "design_approval": false,
-    "publication_approval": false
+    "publication_approval": false,
+    "excluded_as_forks_in_practice": {
+      "mesa": "Self-described fork of the Mesa 3D graphics library, hosted outside GitHub.",
+      "omarchy-fleet": "Mirror of omacom/omarchy carrying fleet work.",
+      "omarchy-fleet-iso": "Mirror of the Omarchy ISO sources carrying fleet work.",
+      "omarchy-fleet-pkgs": "Mirror of the Omarchy package repository build system carrying fleet work."
+    }
   }
 }
